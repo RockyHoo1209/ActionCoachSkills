@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+ <html lang="zh-CN">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Step 3 卡片选择 · 原型演示</title>
+ <style>
+   * { margin: 0; padding: 0; box-sizing: border-box; }
+   body { font-family: -apple-system, "Segoe UI", Roboto, "Noto Sans SC", sans-serif; background: #1a1a2e; color: #eee; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+   .phone { width: 420px; max-width: 100%; background: #16213e; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); overflow: hidden; }
+   .phone-header { background: #0f3460; padding: 16px 20px; display: flex; align-items: center; gap: 12px; }
+   .phone-header .avatar { width: 40px; height: 40px; border-radius: 50%; background: #e94560; display: flex; align-items: center; justify-content: center; font-size: 20px; }
+   .phone-header .info { flex: 1; }
+   .phone-header .name { font-size: 16px; font-weight: 600; }
+   .phone-header .status { font-size: 12px; color: #7eca9c; }
+   .phone-header .status::before { content: "\25CF "; }
+   .chat-area { padding: 16px; max-height: 600px; overflow-y: auto; }
+   .message { margin-bottom: 16px; display: flex; gap: 10px; }
+   .message.coach { flex-direction: row; }
+   .message.user { flex-direction: row-reverse; }
+   .msg-avatar { width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+   .message.coach .msg-avatar { background: #e94560; }
+   .message.user .msg-avatar { background: #533483; }
+   .bubble { max-width: 85%; padding: 12px 16px; border-radius: 18px; font-size: 15px; line-height: 1.6; position: relative; }
+   .message.coach .bubble { background: #1a1a40; border-bottom-left-radius: 4px; }
+   .message.user .bubble { background: #e94560; border-bottom-right-radius: 4px; }
+   .card-grid { display: flex; flex-direction: column; gap: 10px; margin: 12px 0; }
+   .character-card { display: flex; gap: 12px; padding: 14px 16px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; cursor: pointer; transition: all 0.2s; }
+   .character-card:hover { background: rgba(255,255,255,0.12); border-color: #e94560; transform: translateX(4px); }
+   .character-card .icon { font-size: 28px; flex-shrink: 0; }
+   .character-card .body { flex: 1; }
+   .character-card .name { font-weight: 700; font-size: 15px; color: #fff; }
+   .character-card .tagline { font-size: 13px; color: #aaa; margin: 2px 0 4px; }
+   .character-card .preview { font-size: 13px; color: #7eca9c; font-style: italic; padding: 6px 10px; background: rgba(126,202,156,0.1); border-radius: 8px; }
+   .skip-card { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: rgba(255,255,255,0.04); border: 1px dashed rgba(255,255,255,0.2); border-radius: 14px; cursor: pointer; transition: all 0.2s; color: #888; justify-content: center; }
+   .skip-card:hover { background: rgba(255,255,255,0.08); border-color: #888; color: #ccc; }
+   .timestamp { font-size: 11px; color: #666; text-align: center; margin: 8px 0; }
+   .divider { text-align: center; color: #555; font-size: 12px; margin: 10px 0; position: relative; }
+   .divider::before, .divider::after { content: ""; position: absolute; top: 50%; width: 35%; height: 1px; background: #333; }
+   .divider::before { left: 0; }
+   .divider::after { right: 0; }
+ </style>
+ </head>
+ <body>
+ <div class="phone">
+   <div class="phone-header">
+     <div class="avatar">&#x1F9D1;&#x200D;&#x1F3EB;</div>
+     <div class="info">
+       <div class="name">你的教练</div>
+       <div class="status">在线 · 正在了解你</div>
+     </div>
+   </div>
+   <div class="chat-area">
+     <div class="message user">
+       <div class="msg-avatar">&#x1F64B;</div>
+       <div class="bubble">我想选 Dan Koe 款式，再加一个思考方式层</div>
+     </div>
+     <div class="timestamp">刚刚</div>
+     <div class="message coach">
+       <div class="msg-avatar">&#x1F9D1;&#x200D;&#x1F3EB;</div>
+       <div class="bubble">
+         好的！现在给你选一个"思考方式层"——它决定教练遇到问题时怎么思考，而不是怎么说话。<br><br>
+         检测到你已经安装了 nuwa-skill &#x1F3AF; 以下是你可用的所有角色卡片：
+       </div>
+     </div>
+     <div class="card-grid">
+       <div class="character-card">
+         <div class="icon">&#x1F9E0;</div>
+         <div class="body">
+           <div class="name">埃隆·马斯克</div>
+           <div class="tagline">第一性原理思考者</div>
+           <div class="preview">"你今天的任务为什么重要？从最根本的原因开始想。"</div>
+         </div>
+       </div>
+       <div class="character-card">
+         <div class="icon">&#x1F3AC;</div>
+         <div class="body">
+           <div class="name">宫崎骏</div>
+           <div class="tagline">匠心与细腻的观察者</div>
+           <div class="preview">"今天不赶进度，只做好一件事就够。"</div>
+         </div>
+       </div>
+       <div class="character-card">
+         <div class="icon">&#x1F4AD;</div>
+         <div class="body">
+           <div class="name">苏格拉底</div>
+           <div class="tagline">提问驱动思考</div>
+           <div class="preview">"你觉得自己卡在哪？不是我知道答案，而是我知道怎么问。"</div>
+         </div>
+       </div>
+       <div class="character-card">
+         <div class="icon">&#x2694;&#xFE0F;</div>
+         <div class="body">
+           <div class="name">孙子</div>
+           <div class="tagline">战略与博弈思维</div>
+           <div class="preview">"今天的任务分五步，第一步决定成败，先搞定它。"</div>
+         </div>
+       </div>
+       <div class="character-card">
+         <div class="icon">&#x262F;&#xFE0F;</div>
+         <div class="body">
+           <div class="name">老子</div>
+           <div class="tagline">顺势而为</div>
+           <div class="preview">"今天不想做就不做？不，是换个方式做。"</div>
+         </div>
+       </div>
+       <div class="skip-card">&#x23ED;&#xFE0F; 跳过这一步，直接用 Step 2 选定的性格</div>
+     </div>
+     <div class="divider">以上卡片来自 nuwa-skill</div>
+     <div class="message user">
+       <div class="msg-avatar">&#x1F64B;</div>
+       <div class="bubble">我选苏格拉底，我需要一个会提问的教练</div>
+     </div>
+     <div class="message coach">
+       <div class="msg-avatar">&#x1F9D1;&#x200D;&#x1F3EB;</div>
+       <div class="bubble">
+         选得好！你的教练现在有了 Dan Koe 的直爽性格 + 苏格拉底的提问思考方式。<br><br>
+         接下来，我们定一下提醒节奏...
+       </div>
+     </div>
+   </div>
+ </div>
+ <p style="text-align:center;color:#666;margin-top:12px;font-size:13px;">Step 3 卡片选择原型 · 实际角色以 nuwa-skill 提供的为准</p>
+ </body>
+ </html>

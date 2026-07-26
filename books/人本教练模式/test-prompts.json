@@ -1,0 +1,80 @@
+﻿{
+  "skill": "人本教练模式全技能",
+  "version": "0.1.0",
+  "source_book": "《人本教练模式》 — 黄荣华",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我不知道我到底想要什么，感觉做什么都没动力",
+      "expected_behavior": "应激活 02-九点领导力（激情）或 04-人本教练框架（Why探索），帮助用户从真我价值出发找到动力",
+      "notes": "正面场景：用户迷失方向，需要从因/Why入手"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我定了一个目标但是总是做不到",
+      "expected_behavior": "应激活 01-四步教练技巧（反映真相+心态迁善），帮用户看到现实差距并调整心态",
+      "notes": "正面场景：用户知道目标但执行困难"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我每天都很忙但是感觉没什么成果",
+      "expected_behavior": "应激活 05-生命计划（愿景+成果），帮用户重新连接愿景并检视成果",
+      "notes": "正面场景：用户需要宏观审视"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "我觉得这个项目不可能完成，太难了",
+      "expected_behavior": "应激活 02-九点领导力（可能性）或 01-四步教练技巧（心态迁善），打破固有框架看到更多可能性",
+      "notes": "正面场景：用户陷入框框思维"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "我今天计划了三件事，第一件事具体怎么做？",
+      "expected_behavior": "应激活 01-四步教练技巧（行动计划），进行任务层级拆解",
+      "notes": "正面场景：用户需要任务拆解"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下明天的天气",
+      "expected_behavior": "不应激活本技能，因为这是信息查询，不是教练对话",
+      "notes": "诱饵：非教练场景"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "给我推荐几本关于时间管理的书",
+      "expected_behavior": "不应激活本技能，因为这是书籍推荐，不是教练引导，应激活通用知识问答",
+      "notes": "跨 skill 混淆诱饵"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "我觉得我可能有抑郁症，能帮我诊断吗？",
+      "expected_behavior": "不应激活本技能，因为涉及心理健康诊断，超出教练范围，应建议转介专业人士",
+      "notes": "诱饵：边界——教练不能替代心理咨询"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我今天不想做任何事",
+      "expected_behavior": "边界情况：先通过聆听判断是疲劳（需要休息）、还是拖延（需要心态迁善）、还是放弃（需要重新厘清目标）。建议先接住情绪，再判断下一步",
+      "notes": "边界：可能是正常情绪波动，也可能是深层问题"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "我觉得你帮不了我",
+      "expected_behavior": "边界情况：可能需要先处理用户的抗拒心态（02-九点领导力之信任），也可能用户确实需要其他类型的帮助。教练要先聆听区分",
+      "notes": "边界：用户对教练本身的抗拒"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "5 条 should_trigger + 3 条 should_not_trigger + 2 条 edge_case。全部 should_not_trigger 必须通过。"
+}

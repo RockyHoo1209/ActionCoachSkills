@@ -1,0 +1,25 @@
+{
+  "total_stars": 2,
+  "highest_tier": "bronze",
+  "highest_sub": 3,
+  "streak": 0,
+  "longest_streak": 0,
+  "last_active": "2026-07-26T09:25:10.321730",
+  "protection": 0,
+  "history": [
+    {
+      "type": "earn",
+      "reason": "daily_done",
+      "stars": 1,
+      "label": "完成当日计划（至少做了一个 step）",
+      "date": "2026-07-26T09:24:43.007471"
+    },
+    {
+      "type": "earn",
+      "reason": "perfect_day",
+      "stars": 1,
+      "label": "完美日（所有 task 完成）额外 +1",
+      "date": "2026-07-26T09:25:10.321730"
+    }
+  ]
+}
