@@ -28,6 +28,42 @@ requirements:
 
 本 SKILL.md 为多平台兼容设计。各 Agent 平台安装方式不同，请根据您的平台选择对应方案。
 
+### ??????
+
+? SKILL ?? `scripts/install_deps.py`???????????? skill?
+
+```bash
+# ?????????
+python scripts/install_deps.py --check-only
+
+# ???????llm-wiki-skill + nuwa-skill?
+python scripts/install_deps.py
+
+# ????????? nuwa-skill
+python scripts/install_deps.py --skip-nuwa
+```
+
+????? JSON ??????? Agent ???????????????????????
+
+
+### 自动依赖安装
+
+本 SKILL 附带 `scripts/install_deps.py`，可在安装时自动克隆依赖 skill：
+
+```bash
+# 检查依赖是否已安装
+python scripts/install_deps.py --check-only
+
+# 安装所有依赖（llm-wiki-skill + nuwa-skill）
+python scripts/install_deps.py
+
+# 仅安装硬依赖，跳过 nuwa-skill
+python scripts/install_deps.py --skip-nuwa
+```
+
+该脚本输出 JSON 格式结果，便于 Agent 解析。各平台安装时推荐调用此脚本确保依赖就绪。
+
+
 ### Claude Codex（首选平台）
 
 Codex 原生支持 SKILL.md 格式。两种安装方式：
