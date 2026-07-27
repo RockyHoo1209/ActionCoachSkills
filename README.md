@@ -214,12 +214,7 @@ Copy-Item -Recurse .\action-coach\ \skills\action-coach\
 | 依赖 | 类型 | 用途 |
 |------|------|------|
 | [llm-wiki-skill](https://github.com/sdyckjq-lab/llm-wiki-skill) | 必需 | 每个目标独立的持久化知识库 |
-
-### 可选依赖
-
-| 依赖 | 类型 | 用途 |
-|------|------|------|
-| [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 可选 | Step 3 提供名人思考视角叠加 |
+| [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 必需 | Step 3 提供名人思考视角叠加 |
 
 ### 数据存储
 
@@ -274,12 +269,18 @@ scripts/ac.py 统一管理数据操作，LLM 只需调用对应子命令，大�
 | plan create | 创建每日层级计划 |
 | plan check | 标记任务完成 |
 | plan show | 显示当前计划进度 |
-| ank query | 查询段位和 ⭐ |
-| ank add-star | 加 ⭐ |
-| ank lose-star | 扣 ⭐ |
-| ank check-demote | 检查沉默掉 ⭐ |
-| ank update-streak | 更新连续打卡 |
-| ank history | 查看历史最高段位 |
+| 
+ank query | 查询段位和 ⭐ |
+| 
+ank add-star | 加 ⭐ |
+| 
+ank lose-star | 扣 ⭐ |
+| 
+ank check-demote | 检查沉默掉 ⭐ |
+| 
+ank update-streak | 更新连续打卡 |
+| 
+ank history | 查看历史最高段位 |
 | state get/set | 状态机管理 |
 | weekly show | 生成周报 |
 | config save/get | 教练配置管理 |
