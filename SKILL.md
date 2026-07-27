@@ -24,30 +24,20 @@ requirements:
 
 ---
 
-## 跨平台安装指南
+## Phase 0：依赖安装（必须先做）
 
-本 SKILL.md 为多平台兼容设计。各 Agent 平台安装方式不同，请根据您的平台选择对应方案。
+本 skill 依赖两个前置 skill，**首次使用前必须先完成依赖安装**，否则教练功能不完整。
 
-### 依赖安装
+| 依赖 | 类型 | 用途 |
+|------|------|------|
+| llm-wiki-skill | 🔴 **硬依赖（必须装）** | 持久记忆 / 知识库。每个目标一个独立知识库实例 |
+| nuwa-skill | 🔴 **硬依赖（必须装）**   | 角色视角叠加，用于 Step 3 叠加名人思考方式 |
 
-本skill依赖其他的 SKILL ，必须先执行 `scripts/install_deps.py`安装依赖的前置skill
+🔴 **CHECKPOINT：必须先完成此阶段，再进入教练创建流程。**
 
-```bash
-# 只检查是否安装
-python scripts/install_deps.py --check-only
+### 自动安装（推荐）
 
-# 安装llm-wiki-skill + nuwa-skill
-python scripts/install_deps.py
-
-# 如已安装nuwa-skill，泽跳过
-python scripts/install_deps.py --skip-nuwa
-```
-
-
-
-### 自动依赖安装
-
-本 SKILL 附带 `scripts/install_deps.py`，可在安装时自动克隆依赖 skill：
+首次使用时，Agent 应自动调用以下脚本：
 
 ```bash
 # 检查依赖是否已安装
@@ -56,44 +46,89 @@ python scripts/install_deps.py --check-only
 # 安装所有依赖（llm-wiki-skill + nuwa-skill）
 python scripts/install_deps.py
 
-# 仅安装硬依赖，跳过 nuwa-skill
+# 如果其中依赖已经安装，跳过对应SKILL (如：nuwa-skill) 
 python scripts/install_deps.py --skip-nuwa
 ```
 
-该脚本输出 JSON 格式结果，便于 Agent 解析。各平台安装时推荐调用此脚本确保依赖就绪。
+脚本输出 JSON 格式结果（含 ok、deps[] 等字段），便于 Agent 解析判断。
 
+### 失败处理
 
-### Claude Codex（首选平台）
+如果自动安装失败，按以下规则处理：
 
-Codex 原生支持 SKILL.md 格式。两种安装方式：
-- **手动安装** → 将本目录放入 `~/.codex/skills/action-coach/`，确保 scripts/ 和 books/ 子目录同步
+| 失败场景 | 处理方式 |
+|----------|---------|
+| llm-wiki-skill 安装失败（必需） | ❌ 如实告知用户："记忆系统未就绪，教练的记忆和学习功能不可用"；给用户选择：继续（功能受限）或退出 |
+| Git 未安装 / PATH 中不可用 | 告知用户手动克隆仓库，提供 GitHub 链接 |
+| 检测到已安装 | 直接进入教练创建流程，不再重复安装 |
+| 用户主动跳过所有依赖 | 教练本体照常工作，但无记忆功能（llm-wiki-skill）、无角色视角叠加（nuwa-skill） |
 
-Step 3 中会检测 nuwa-skill 并读取人物列表。依赖安装失败时允许跳过。
+### 手动安装
 
-### Claude Hermes
+如果自动安装不可用或环境受限，可手动克隆：
 
-1. 将本目录放入 `skills/action-coach/`
-2. 确保 Python 3.6+ 在容器中可用
-3. 预安装 `llm-wiki-skill` 和 `nuwa-skill`（按各自仓库 README）
+```bash
+# llm-wiki-skill（硬依赖）
+git clone --depth 1 https://github.com/sdyckjq-lab/llm-wiki-skill.git ~/.codex/skills/llm-wiki-skill/
+
+# nuwa-skill（硬依赖）
+git clone --depth 1 https://github.com/alchaincyf/nuwa-skill.git ~/.codex/skills/nuwa-skill/
+```
+
+### 对安装本 skill 的用户的要求
+
+任何安装 ActionCoach 的用户，**必须确保其环境中安装了 llm-wiki-skill+nuwa-skill（硬依赖）**。
+
+**正确流程**：
+1. 用户执行依赖安装脚本（自动或手动）
+2. 用户确认依赖已就绪
+3. 再将本 skill 放入对应平台目录
+
+**错误流程** ❌：
+1. 用户只拷贝 SKILL.md 和 scripts/，不安装前置 skill
+2. Agent 跳过依赖检查直接开始教练流程
+
+---
+
+## 跨平台安装指南
+
+本 SKILL.md 为多平台兼容设计。各 Agent 平台安装方式不同，请根据您的平台选择对应方案。
+
+### Codex（首选平台）
+
+Codex 原生支持 SKILL.md 格式。
+1. 先完成 **Phase 0** 依赖安装
+2. 将本目录放入 `~/.codex/skills/action-coach/`，确保 scripts/ 和 books/ 子目录同步
+3. 启动后自动检测依赖
+
+### Hermes
+
+1. 先完成 **Phase 0** 依赖安装
+2. 将本目录放入 `skills/action-coach/`
+3. 确保 Python 3.6+ 在容器中可用
 4. 脚本调用格式：`python3 scripts/ac.py <子命令> --user {user_id}`
 
 ### OpenClaw
 
-1. 将本目录放入 `skills/action-coach/`
-2. 支持 shell + python 直接调用
-3. 脚本路径：`scripts/ac.py`（相对路径，与 SKILL.md 同级）
+1. 先完成 **Phase 0** 依赖安装
+2. 将本目录放入 `skills/action-coach/`
+3. 支持 shell + python 直接调用
+4. 脚本路径：`scripts/ac.py`（相对路径，与 SKILL.md 同级）
 
 ### OpenAI Agents SDK
 
-1. 将 SKILL.md 的关键指令提取为 function tool
-2. `scripts/ac.py` 的各子命令可作为 function calling 工具暴露
-3. 需 Python 3.6+，无需额外依赖
+1. 先完成 **Phase 0** 依赖安装
+2. 将 SKILL.md 的关键指令提取为 function tool
+3. `scripts/ac.py` 的各子命令可作为 function calling 工具暴露
+4. 需 Python 3.6+，无需额外依赖
 
 ### 通用 Agent（未列出的平台）
 
-- 将 SKILL.md 内容作为系统提示词注入
-- 确保 scripts/ 和 books/ 子目录与 SKILL.md 同级
-- Python 脚本调用：`python scripts/ac.py <子命令> --user {user_id}`
+1. 先完成 **Phase 0** 依赖安装
+2. 将 SKILL.md 内容作为系统提示词注入
+3. 确保 scripts/ 和 books/ 子目录与 SKILL.md 同级
+4. Python 脚本调用：`python scripts/ac.py <子命令> --user {user_id}`
+
 
 ---
 
@@ -381,7 +416,6 @@ docker exec <容器名> python3 /path/to/scripts/ac.py <子命令>
 #### 执行注意事项
 
 - 人物卡片以列表形式展示，卡片间用分隔线隔开，确保 IM 中可读
-- 如果 nuwa-skill 安装失败 → 直接告知用户并跳过，不卡流程
 - 如果人物列表为空或加载失败 → 告知用户并跳过
 
 ### Step 4：定提醒节奏
@@ -734,13 +768,13 @@ docker exec <容器名> python3 /path/to/scripts/ac.py <子命令>
 
 ---
 
-## 记忆系统：llm-wiki-skill（硬依赖）
+## 记忆系统：llm-wiki-skill+nuwa-skill（硬依赖）
 
 从 Step 5 确认开练起，教练开始持续积累用户专属记忆。**这是硬依赖，不是可选项。**
 
 ### 安装与验证
 
-1. 检测当前环境是否已安装 llm-wiki-skill，没装则安装`llm-wiki-skill`（https://github.com/sdyckjq-lab/llm-wiki-skill）
+1. 检测当前环境是否已安装 llm-wiki-skill+nuwa-skill，没装则安装`llm-wiki-skill`（https://github.com/sdyckjq-lab/llm-wiki-skill）和`nuwa-skill`(https://github.com/alchaincyf/nuwa-skill/tree/main)
 2. 安装失败 → 如实告知用户，允许跳过，教练本体照常工作
 3. 一个目标一个独立知识库实例（命名空间格式：coach-目标名）
 
