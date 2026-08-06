@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>失业·求职·就业 评论分析报告</title>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background:#f5f6fa; color:#1a1a2e; margin:0; padding:20px; line-height:1.7; }
+  .container { max-width:960px; margin:0 auto; }
+  h1 { text-align:center; font-size:28px; margin:30px 0 5px; }
+  .subtitle { text-align:center; color:#666; font-size:14px; margin-bottom:30px; }
+  .summary-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:30px; }
+  .card { background:white; border-radius:10px; padding:16px; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+  .card .num { font-size:32px; font-weight:700; color:#e94560; }
+  .card .label { font-size:13px; color:#888; margin-top:4px; }
+  section { background:white; border-radius:12px; padding:24px; margin-bottom:20px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+  h2 { font-size:20px; margin:0 0 16px; padding-bottom:10px; border-bottom:2px solid #e94560; }
+  .bar-chart { margin:10px 0; }
+  .bar-row { display:flex; align-items:center; margin:6px 0; gap:8px; }
+  .bar-label { width:220px; text-align:right; font-size:14px; flex-shrink:0; }
+  .bar-track { flex:1; height:24px; background:#eef0f7; border-radius:12px; overflow:hidden; }
+  .bar-fill { height:100%; border-radius:12px; transition:width .3s; display:flex; align-items:center; padding-left:8px; font-size:12px; color:white; font-weight:600; }
+  .bar-count { width:100px; font-size:13px; color:#555; flex-shrink:0; }
+  .comment-list { list-style:none; padding:0; margin:0; }
+  .comment-list li { padding:12px 16px; border-bottom:1px solid #f0f0f0; border-radius:6px; margin:6px 0; background:#fafafa; }
+  .comment-list li:last-child { border-bottom:none; }
+  .comment-meta { font-size:12px; color:#999; margin-top:4px; }
+  .like-badge { display:inline-block; background:#e94560; color:white; font-size:12px; padding:1px 8px; border-radius:10px; font-weight:600; }
+  .tag { display:inline-block; background:#eef0f7; color:#555; font-size:12px; padding:2px 10px; border-radius:10px; margin:2px; }
+  .bigrams { display:flex; flex-wrap:wrap; gap:6px; }
+  .bigrams span { background:#eef0f7; padding:4px 12px; border-radius:16px; font-size:13px; }
+  .bigrams .count { color:#e94560; font-weight:600; }
+  .insight-box { background:#fff8f0; border-left:4px solid #e94560; padding:12px 16px; margin:12px 0; border-radius:0 8px 8px 0; }
+  .module-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; }
+  .module-card { background:#fafafa; border-radius:10px; padding:16px; border:1px solid #eef0f7; }
+  .module-card h4 { margin:0 0 8px; color:#e94560; }
+  .module-card ul { margin:0; padding-left:18px; font-size:14px; }
+  .module-card li { margin:4px 0; }
+  footer { text-align:center; font-size:12px; color:#aaa; margin:40px 0 20px; }
+  @media(max-width:640px){ .bar-label { width:120px; font-size:12px; } .bar-count { width:70px; } }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>📊 失业·求职·就业 评论数据分析报告</h1>
+<p class="subtitle">面向「失业教练」垂直产品设计 · ActionCoach · 2026-08-04 15:40:59</p>
+
+<div class="summary-cards">
+  <div class="card"><div class="num">402</div><div class="label">评论总数</div></div>
+  <div class="card"><div class="num">0</div><div class="label">笔记/视频</div></div>
+  <div class="card"><div class="num">1,365,749</div><div class="label">总点赞</div></div>
+  <div class="card"><div class="num">54,655</div><div class="label">总回复</div></div>
+  <div class="card"><div class="num">402</div><div class="label">抖音评论</div></div>
+  <div class="card"><div class="num">0</div><div class="label">小红书评论</div></div>
+</div>
+
+<section><h2>📂 话题关键词分类分布</h2><p style="color:#888;font-size:13px;">一条评论可能命中多个类别，按命中条数降序</p>
+<div class="bar-chart">
+<div class="bar-row"><span class="bar-label">📚 技能不足/学习提升</span><div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#533483">53</div></div><span class="bar-count">53条 (13.2%)</span></div>
+<div class="bar-row"><span class="bar-label">💰 经济压力/财务困境</span><div class="bar-track"><div class="bar-fill" style="width:84.9%;background:#533483">45</div></div><span class="bar-count">45条 (11.2%)</span></div>
+<div class="bar-row"><span class="bar-label">📋 求职挫败/简历面试</span><div class="bar-track"><div class="bar-fill" style="width:73.6%;background:#533483">39</div></div><span class="bar-count">39条 (9.7%)</span></div>
+<div class="bar-row"><span class="bar-label">🔢 年龄歧视/代际压力</span><div class="bar-track"><div class="bar-fill" style="width:67.9%;background:#533483">36</div></div><span class="bar-count">36条 (9.0%)</span></div>
+<div class="bar-row"><span class="bar-label">🏢 职业类型/行业参考</span><div class="bar-track"><div class="bar-fill" style="width:43.4%;background:#533483">23</div></div><span class="bar-count">23条 (5.7%)</span></div>
+<div class="bar-row"><span class="bar-label">😰 情绪焦虑/心理压力</span><div class="bar-track"><div class="bar-fill" style="width:41.5%;background:#e94560">22</div></div><span class="bar-count">22条 (5.5%)</span></div>
+<div class="bar-row"><span class="bar-label">👥 社会压力/面子问题</span><div class="bar-track"><div class="bar-fill" style="width:41.5%;background:#533483">22</div></div><span class="bar-count">22条 (5.5%)</span></div>
+<div class="bar-row"><span class="bar-label">🧭 教练/指导需求</span><div class="bar-track"><div class="bar-fill" style="width:32.1%;background:#e94560">17</div></div><span class="bar-count">17条 (4.2%)</span></div>
+<div class="bar-row"><span class="bar-label">🌱 自我成长/行动力</span><div class="bar-track"><div class="bar-fill" style="width:24.5%;background:#0f3460">13</div></div><span class="bar-count">13条 (3.2%)</span></div>
+</div></section>
+<section><h2>😊 情感倾向分布</h2><div class="bar-chart">
+<div class="bar-row"><span class="bar-label">😊 积极/希望</span><div class="bar-track"><div class="bar-fill" style="width:11.9%;background:#27ae60">39</div></div><span class="bar-count">39条 (9.7%) · 赞209,872</span></div>
+<div class="bar-row"><span class="bar-label">🤔 复杂/矛盾</span><div class="bar-track"><div class="bar-fill" style="width:2.4%;background:#f39c12">8</div></div><span class="bar-count">8条 (2.0%) · 赞276</span></div>
+<div class="bar-row"><span class="bar-label">😐 中性/陈述</span><div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#95a5a6">327</div></div><span class="bar-count">327条 (81.3%) · 赞1,010,405</span></div>
+<div class="bar-row"><span class="bar-label">😞 消极/绝望</span><div class="bar-track"><div class="bar-fill" style="width:8.6%;background:#e74c3c">28</div></div><span class="bar-count">28条 (7.0%) · 赞145,196</span></div>
+</div></section>
+<section><h2>🔥 最高赞评论 TOP 20</h2><ol class="comment-list">
+<li><strong>第一个是真的，我第一次面试，HR问我有什么问她的，我就问您觉得今天的面试我有哪里不够好需要改进的，她真的讲了我面试和简历中的优缺点和她看中我的点，真心给建议</strong><div class="comment-meta"><span class="like-badge">👍250714</span> 广***龙 · dy</div></li>
+<li><strong>其实。。。一直没找到是因为我根本没想真的找[泪奔]</strong><div class="comment-meta"><span class="like-badge">👍140585</span> 风* · dy</div></li>
+<li><strong>睡前不想看这么焦虑的事情</strong><div class="comment-meta"><span class="like-badge">👍103947</span> 叛***狗 · dy</div></li>
+<li><strong>我真的该睡了，既然能看到毕马威总监在抖音求职…</strong><div class="comment-meta"><span class="like-badge">👍67068</span> 烟* · dy</div></li>
+<li><strong>在家待了三年，昨天把电视卖了[捂脸][捂脸][捂脸]</strong><div class="comment-meta"><span class="like-badge">👍64153</span> 梦麻 · dy</div></li>
+<li><strong>在家待了三年，昨天把电视卖了[捂脸][捂脸][捂脸]</strong><div class="comment-meta"><span class="like-badge">👍64153</span> 梦***麻 · dy</div></li>
+<li><strong>竟然还是毕马威的总监，四大也这样吗[流泪]</strong><div class="comment-meta"><span class="like-badge">👍52646</span> 想***式 · dy</div></li>
+<li><strong>毕马威的总监在抖音求职？！我上学的时候觉得这种精英都是打工皇帝，企业抢着要的！</strong><div class="comment-meta"><span class="like-badge">👍44403</span> 养***· · dy</div></li>
+<li><strong>企业心气低，三千块就想当玉皇大帝</strong><div class="comment-meta"><span class="like-badge">👍40836</span> ☣***☣ · dy</div></li>
+<li><strong>我姥说今年大街上都没咋见到有人发广告扇子了[泪奔]</strong><div class="comment-meta"><span class="like-badge">👍40584</span> 🌈***🌈 · dy</div></li>
+<li><strong>找工作最怕的就是找到工作</strong><div class="comment-meta"><span class="like-badge">👍40171</span> 一***牛 · dy</div></li>
+<li><strong>当我有工作时  感觉全世界都在招聘  当我失业时 感觉全世界的岗位都饱和了[泪奔]</strong><div class="comment-meta"><span class="like-badge">👍37807</span> 挺***了 · dy</div></li>
+<li><strong>hr头像一定要默认，这种都是老hr，很专业</strong><div class="comment-meta"><span class="like-badge">👍32138</span> 婧***人 · dy</div></li>
+<li><strong>我学历比你还高，也是两端跨国企业工作经历，25岁失业到现在一年多了只面试了一次，投简历石沉大海，目前一直靠一对善良的老夫妇救济。[比心]</strong><div class="comment-meta"><span class="like-badge">👍28852</span> 豆* · dy</div></li>
+<li><strong>哥，失业和失业不一样[捂脸]你这是摩擦性失业，不是结构性失业啊</strong><div class="comment-meta"><span class="like-badge">👍21353</span> a***n · dy</div></li>
+<li><strong>你俩好乐观，我失业9个月了，晚上二点三点都睡不着</strong><div class="comment-meta"><span class="like-badge">👍18042</span> @@ · dy</div></li>
+<li><strong>你俩好乐观，我失业9个月了，晚上二点三点都睡不着</strong><div class="comment-meta"><span class="like-badge">👍18042</span> @***@ · dy</div></li>
+<li><strong>女骑手越来越常见了[泣不成声]我就知道更难了。</strong><div class="comment-meta"><span class="like-badge">👍17606</span> 好***📝 · dy</div></li>
+<li><strong>我跟我妈说这已经不是一个很努力就有回报的时代了</strong><div class="comment-meta"><span class="like-badge">👍17417</span> O***🌙 · dy</div></li>
+<li><strong>分享一下我个人觉得的毛细血管吧，我真不是受虐倾向[捂脸]如果点外卖送餐的人，速度慢，态度一般，年龄大，这是经济好起来了，结果现在全是速度快，态度好，全是 00 后的小哥[捂脸]好什么好啊[捂脸]</strong><div class="comment-meta"><span class="like-badge">👍17285</span> 千***舞 · dy</div></li>
+</ol></section>
+<section><h2>🧭 教练需求评论 TOP 15</h2><ol class="comment-list">
+<li><strong>第一个是真的，我第一次面试，HR问我有什么问她的，我就问您觉得今天的面试我有哪里不够好需要改进的，她真的讲了我面试和简历中的优缺点和她看中我的点，真心给建议</strong><div class="comment-meta"><span class="like-badge">👍250714</span></div></li>
+<li><strong>我跟我妈说这已经不是一个很努力就有回报的时代了</strong><div class="comment-meta"><span class="like-badge">👍17417</span></div></li>
+<li><strong>感觉简历很空怎么办[流泪]</strong><div class="comment-meta"><span class="like-badge">👍12043</span></div></li>
+<li><strong>博主分析的很好，我就是觉得以前的工作没有成长，十年如一日，所以我从国企辞职了，转行到新的行业，每天都在学新东西，很开心，因为我知道渐渐走上了我喜欢的方向[比心]</strong><div class="comment-meta"><span class="like-badge">👍261</span></div></li>
+<li><strong>唉，我也快失业了，87老登，不知道怎么办[流泪]</strong><div class="comment-meta"><span class="like-badge">👍198</span></div></li>
+<li><strong>知识还是能改变命运的，不要想信读书无用论</strong><div class="comment-meta"><span class="like-badge">👍61</span></div></li>
+<li><strong>干一行恨一行，至今没有遇到觉得还可以继续坚持的行业[抱紧自己]</strong><div class="comment-meta"><span class="like-badge">👍54</span></div></li>
+<li><strong>第一个是真的，昨晚我老公在线面试了三个实习生，每面完一个他和合伙人都讨论了这三人面试中存在的问题给出了具体建议，比如某个面试者的目前深入方向不太好找工作，还有某个面试者想要求职类似工作需要再学一下什么技术。如果实习生结束会议后再返回会议，就能听到。这些内容对大学中的求职者很重要，可惜没能当面反馈</strong><div class="comment-meta"><span class="like-badge">👍42</span></div></li>
+<li><strong>boss不回复怎么办……二战失败像案底一样[躺平]</strong><div class="comment-meta"><span class="like-badge">👍38</span></div></li>
+<li><strong>39岁，（以前是装修电工）今年面临转行，不知道往哪里转，刚把孩子的学费交了（12350元），犹豫了一个星期，最近天天都在街上闲逛，怎么办，有哪位大师指点一下</strong><div class="comment-meta"><span class="like-badge">👍30</span></div></li>
+<li><strong>我十年前因为爱好学了游泳，现在失业了在做个人女游泳教练教女生游泳</strong><div class="comment-meta"><span class="like-badge">👍26</span></div></li>
+<li><strong>那要是自己本根不知道自己能做什么岗位怎么办[再见]这不开始就结束了[再见]</strong><div class="comment-meta"><span class="like-badge">👍23</span></div></li>
+<li><strong>读书是穷人的唯一出路[比心]</strong><div class="comment-meta"><span class="like-badge">👍11</span></div></li>
+<li><strong>其实是这样的，我去年就是被辞退了，现在换了个地方，虽然确实累，但是成长了很多，甚至不到半年比我去年两年多在那个单位成长的更多，收入也更多。原单位也是动荡不安，又辞退别人，尤其你是一个踏实干活的人的情况下，辞退你说明他本身就出现问题了。加油！你会找到更好的工作的！</strong><div class="comment-meta"><span class="like-badge">👍8</span></div></li>
+<li><strong>我个人感觉去做销售会比较好一点，毕竟能够让自己的性格也好，能力都提升很多，毕竟在这个社会上还是要和人多接触的，有人的地方就有市场，可能前期会比较辛苦一点，但是让自己能够成长还是很多的呀，也很锻炼自己的心态</strong><div class="comment-meta"><span class="like-badge">👍8</span></div></li>
+</ol></section>
+<section><h2>🔤 高频词组 TOP 60</h2><div class="bigrams">
+<span>工作 <span class="count">112</span></span>
+<span>捂脸 <span class="count">64</span></span>
+<span>一个 <span class="count">62</span></span>
+<span>公司 <span class="count">47</span></span>
+<span>失业 <span class="count">46</span></span>
+<span>没有 <span class="count">44</span></span>
+<span>现在 <span class="count">44</span></span>
+<span>自己 <span class="count">36</span></span>
+<span>就是 <span class="count">34</span></span>
+<span>不要 <span class="count">32</span></span>
+<span>什么 <span class="count">32</span></span>
+<span>的工 <span class="count">31</span></span>
+<span>个月 <span class="count">30</span></span>
+<span>不到 <span class="count">28</span></span>
+<span>都是 <span class="count">27</span></span>
+<span>真的 <span class="count">26</span></span>
+<span>工资 <span class="count">25</span></span>
+<span>流泪 <span class="count">24</span></span>
+<span>可以 <span class="count">24</span></span>
+<span>觉得 <span class="count">24</span></span>
+<span>不是 <span class="count">24</span></span>
+<span>面试 <span class="count">24</span></span>
+<span>的人 <span class="count">23</span></span>
+<span>这个 <span class="count">22</span></span>
+<span>上班 <span class="count">21</span></span>
+<span>找到 <span class="count">20</span></span>
+<span>双休 <span class="count">20</span></span>
+<span>毕业 <span class="count">20</span></span>
+<span>豆包 <span class="count">20</span></span>
+<span>但是 <span class="count">19</span></span>
+<span>根本 <span class="count">19</span></span>
+<span>知道 <span class="count">18</span></span>
+<span>这种 <span class="count">18</span></span>
+<span>如果 <span class="count">17</span></span>
+<span>感觉 <span class="count">17</span></span>
+<span>了我 <span class="count">16</span></span>
+<span>因为 <span class="count">16</span></span>
+<span>岗位 <span class="count">16</span></span>
+<span>这样 <span class="count">16</span></span>
+<span>小时 <span class="count">16</span></span>
+<span>时候 <span class="count">16</span></span>
+<span>很多 <span class="count">16</span></span>
+<span>人的 <span class="count">16</span></span>
+<span>视频 <span class="count">16</span></span>
+<span>所以 <span class="count">15</span></span>
+<span>找工 <span class="count">15</span></span>
+<span>五险 <span class="count">15</span></span>
+<span>不会 <span class="count">15</span></span>
+<span>个人 <span class="count">14</span></span>
+<span>经验 <span class="count">14</span></span>
+<span>业了 <span class="count">14</span></span>
+<span>泪奔 <span class="count">14</span></span>
+<span>招聘 <span class="count">14</span></span>
+<span>险一 <span class="count">14</span></span>
+<span>一金 <span class="count">14</span></span>
+<span>我们 <span class="count">14</span></span>
+<span>稳定 <span class="count">14</span></span>
+<span>一下 <span class="count">14</span></span>
+<span>已经 <span class="count">13</span></span>
+<span>时间 <span class="count">13</span></span>
+</div></section>
+<section><h2>📏 评论长度分布</h2><div class="bar-chart">
+<div class="bar-row"><span class="bar-label">1-10字</span><div class="bar-track"><div class="bar-fill" style="width:22.5%;background:#533483">41</div></div><span class="bar-count">41条 (10.2%)</span></div>
+<div class="bar-row"><span class="bar-label">11-30字</span><div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#533483">182</div></div><span class="bar-count">182条 (45.3%)</span></div>
+<div class="bar-row"><span class="bar-label">31-60字</span><div class="bar-track"><div class="bar-fill" style="width:45.1%;background:#533483">82</div></div><span class="bar-count">82条 (20.4%)</span></div>
+<div class="bar-row"><span class="bar-label">61-100字</span><div class="bar-track"><div class="bar-fill" style="width:33.5%;background:#533483">61</div></div><span class="bar-count">61条 (15.2%)</span></div>
+<div class="bar-row"><span class="bar-label">100+字</span><div class="bar-track"><div class="bar-fill" style="width:19.8%;background:#533483">36</div></div><span class="bar-count">36条 (9.0%)</span></div>
+</div></section>
+<section><h2>💡 用户需求洞察与产品方向</h2>
+<div class="insight-box"><strong>📚 技能不足/学习提升</strong><br>用户知道缺技能但不知道学什么、怎么学。建议提供「岗位技能诊断→学习路径→实战项目」闭环。可与在线课程结合，打造教练+课程组合产品。</div>
+<div class="insight-box"><strong>💰 经济压力/财务困境</strong><br>经济压力紧迫，求职时间窗口窄。建议设计「快速就业→稳定→转型」三阶段路径。针对急需收入用户推出「短期陪跑计划」。</div>
+<div class="insight-box"><strong>📋 求职挫败/简历面试</strong><br>简历石沉大海、已读不回、面试无反馈是日常。用户需要的是「反馈」和「迭代指南」，而非泛泛建议。教练核心服务：简历诊断→投递策略→面试模拟→拒信复盘。</div>
+<div class="insight-box"><strong>🔢 年龄歧视/代际压力</strong><br>年龄焦虑普遍，35岁/40岁是真实恐惧线。用户需要看到「同龄人成功转型案例」和「非年龄敏感赛道」。可设计「第二曲线/中年转型」专项产品线。</div>
+
+<div class="insight-box" style="border-left-color:#0f3460;background:#f0f4ff;">
+<strong>🎯 产品定位总结</strong><br>
+<b>目标人群:</b> 失业/求职中人群（被裁、应届待业、空窗期长、中年转型、裸辞）<br>
+<b>核心价值:</b> 不是又一个求职课程，而是「失业期的专属教练 — 陪你走出来的那个人」<br>
+<b>差异化定位:</b> 心理支持 + 求职实战 + 同伴监督 三位一体<br>
+<b>建议 MVP:</b> 1v1 线上陪跑教练（短周期4-6周）+ 同阶段社群 + AI 辅助工具
+</div>
+
+<h3 style="margin-top:24px;">📦 建议产品模块设计</h3>
+<div class="module-grid">
+  <div class="module-card"><h4>🧠 模块1 — 心理重建</h4><ul><li>认知行为练习（认知重构）</li><li>小胜利计划（每周微目标）</li><li>同伴支持小组</li></ul></div>
+  <div class="module-card"><h4>🔍 模块2 — 求职陪跑</h4><ul><li>简历诊断与优化</li><li>投递策略制定</li><li>面试模拟与复盘</li><li>Offer评估与谈判</li></ul></div>
+  <div class="module-card"><h4>📚 模块3 — 技能诊断</h4><ul><li>岗位技能缺口分析</li><li>个性化学习路径</li><li>实战项目推送</li></ul></div>
+  <div class="module-card"><h4>💰 模块4 — 经济应急</h4><ul><li>快速过渡性工作推荐</li><li>副业启动清单</li><li>财务压力疏导</li></ul></div>
+  <div class="module-card"><h4>👥 模块5 — 社群运营</h4><ul><li>同阶段互助小组</li><li>每日打卡监督</li><li>校友网络</li></ul></div>
+</div>
+
+<h3 style="margin-top:24px;">⚙️ 产品设计原则</h3>
+<ol style="font-size:14px;">
+<li><b>短周期承诺</b>（4-6周起），降低决策门槛</li>
+<li><b>结果导向</b>而非过程导向（明确每周可交付里程碑）</li>
+<li><b>价格可负担</b>（针对经济压力人群设计梯度定价）</li>
+<li><b>强 accountability</b>（教练每日/隔日 check-in，用户承诺行动）</li>
+<li><b>社群作为留存抓手</b>（同路人效应 + 归属感）</li>
+<li><b>内容+服务双引擎</b>（免费内容引流 → 付费教练转化）</li>
+</ol>
+
+<h3 style="margin-top:24px;">📢 内容营销方向（引流）</h3>
+<ul style="font-size:14px;">
+<li><b>方向A:</b> 真实失业日记 / 上岸故事 / 转型案例 → 建立信任</li>
+<li><b>方向B:</b> 求职技巧硬干货（简历模板、面试题库、行业薪资）→ 吸引精准流量</li>
+<li><b>方向C:</b> 心理/认知类内容（如何应对空窗期焦虑、自我价值重建）→ 引发共鸣传播</li>
+<li><b>方向D:</b> 教练过程记录（真实陪跑 case study）→ 展示产品价值</li>
+</ul>
+</section>
+<footer>ActionCoachSkills · 分析脚本 analyze_all.cjs · 2026-08-04 15:40:59</footer>
+</div></body></html>

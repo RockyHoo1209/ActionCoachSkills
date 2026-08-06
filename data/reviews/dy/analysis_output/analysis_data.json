@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "total_comments": 0,
+    "total_contents": 0,
+    "total_likes": 0,
+    "total_replies": 0,
+    "dy_comments": 0,
+    "xhs_comments": 0
+  },
+  "keyword_categories": [],
+  "sentiment": [
+    {
+      "sentiment": "positive",
+      "count": 0,
+      "pct": "NaN",
+      "likes": 0
+    },
+    {
+      "sentiment": "mixed",
+      "count": 0,
+      "pct": "NaN",
+      "likes": 0
+    },
+    {
+      "sentiment": "neutral",
+      "count": 0,
+      "pct": "NaN",
+      "likes": 0
+    },
+    {
+      "sentiment": "negative",
+      "count": 0,
+      "pct": "NaN",
+      "likes": 0
+    }
+  ],
+  "top_liked": [],
+  "coaching_potential": [],
+  "top_bigrams": [],
+  "length_distribution": {
+    "1-10字": 0,
+    "11-30字": 0,
+    "31-60字": 0,
+    "61-100字": 0,
+    "100+字": 0
+  },
+  "platform_breakdown": {
+    "dy": 0,
+    "xhs": 0
+  },
+  "content_tags": [],
+  "source_keywords": []
+}

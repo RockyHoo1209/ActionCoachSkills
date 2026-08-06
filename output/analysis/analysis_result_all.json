@@ -1,0 +1,3460 @@
+{
+  "basic_stats": {
+    "total_comments": 1919,
+    "unique_users": 1096,
+    "unique_notes": 1062,
+    "total_likes": 516549,
+    "avg_likes": 269.17613340281395,
+    "avg_content_len": 30.574257425742573,
+    "avg_word_count": 19.536216779572694,
+    "date_range": [
+      "2022-06-29 13:37:08",
+      "2026-08-01 04:23:03"
+    ]
+  },
+  "top_keywords": [
+    [
+      "自己",
+      470
+    ],
+    [
+      "教练",
+      274
+    ],
+    [
+      "开始",
+      192
+    ],
+    [
+      "拖延",
+      181
+    ],
+    [
+      "目标",
+      137
+    ],
+    [
+      "每天",
+      131
+    ],
+    [
+      "然后",
+      129
+    ],
+    [
+      "计划",
+      117
+    ],
+    [
+      "时候",
+      116
+    ],
+    [
+      "学会",
+      104
+    ],
+    [
+      "人生",
+      97
+    ],
+    [
+      "焦虑",
+      91
+    ],
+    [
+      "完美",
+      86
+    ],
+    [
+      "改变",
+      85
+    ],
+    [
+      "自律",
+      82
+    ],
+    [
+      "现在",
+      82
+    ],
+    [
+      "允许",
+      80
+    ],
+    [
+      "重要",
+      78
+    ],
+    [
+      "方法",
+      78
+    ],
+    [
+      "有没有",
+      77
+    ],
+    [
+      "问题",
+      74
+    ],
+    [
+      "不想",
+      73
+    ],
+    [
+      "别人",
+      71
+    ],
+    [
+      "不会",
+      68
+    ],
+    [
+      "接纳",
+      67
+    ],
+    [
+      "坚持",
+      64
+    ],
+    [
+      "成长",
+      59
+    ],
+    [
+      "努力",
+      59
+    ],
+    [
+      "想要",
+      56
+    ],
+    [
+      "打卡",
+      52
+    ],
+    [
+      "推荐",
+      51
+    ],
+    [
+      "AI",
+      51
+    ],
+    [
+      "一种",
+      50
+    ],
+    [
+      "coach",
+      49
+    ],
+    [
+      "每次",
+      49
+    ],
+    [
+      "习惯",
+      48
+    ],
+    [
+      "能力",
+      47
+    ],
+    [
+      "内耗",
+      47
+    ],
+    [
+      "很多",
+      47
+    ],
+    [
+      "三个",
+      46
+    ],
+    [
+      "提醒",
+      45
+    ],
+    [
+      "收藏",
+      45
+    ],
+    [
+      "只有",
+      43
+    ],
+    [
+      "总是",
+      42
+    ],
+    [
+      "一点",
+      42
+    ],
+    [
+      "加油",
+      42
+    ],
+    [
+      "课程",
+      42
+    ],
+    [
+      "同感",
+      41
+    ],
+    [
+      "捂脸",
+      41
+    ],
+    [
+      "免费",
+      40
+    ]
+  ],
+  "topic_distribution": {
+    "拖延与行动障碍": {
+      "count": 545,
+      "pct": 19.3,
+      "top_words": [
+        "开始",
+        "拖延",
+        "行动",
+        "迟迟",
+        "半途而废",
+        "懒",
+        "执行力",
+        "拖",
+        "等等",
+        "第一步"
+      ]
+    },
+    "教练方法与关系": {
+      "count": 456,
+      "pct": 16.1,
+      "top_words": [
+        "教练",
+        "coach",
+        "互相监督",
+        "监督",
+        "一面镜子",
+        "对话",
+        "支持",
+        "反馈",
+        "提问",
+        "鼓励"
+      ]
+    },
+    "自律与习惯": {
+      "count": 432,
+      "pct": 15.3,
+      "top_words": [
+        "每天",
+        "自律",
+        "坚持",
+        "打卡",
+        "习惯",
+        "早起",
+        "日常",
+        "每日",
+        "早睡早起",
+        "坚持下去"
+      ]
+    },
+    "自我接纳与成长": {
+      "count": 420,
+      "pct": 14.8,
+      "top_words": [
+        "改变",
+        "允许",
+        "接纳",
+        "成长",
+        "进步",
+        "突破",
+        "觉醒",
+        "治愈",
+        "看见",
+        "放下"
+      ]
+    },
+    "目标与计划": {
+      "count": 323,
+      "pct": 11.4,
+      "top_words": [
+        "目标",
+        "计划",
+        "步骤",
+        "方向",
+        "拆解",
+        "规划",
+        "规划师",
+        "制定",
+        "安排",
+        "阶段"
+      ]
+    },
+    "情绪与内耗": {
+      "count": 257,
+      "pct": 9.1,
+      "top_words": [
+        "焦虑",
+        "内耗",
+        "恐惧",
+        "害怕",
+        "抑郁",
+        "迷茫",
+        "压力",
+        "崩溃",
+        "纠结",
+        "抑郁症"
+      ]
+    },
+    "价值与价格": {
+      "count": 225,
+      "pct": 8.0,
+      "top_words": [
+        "课程",
+        "免费",
+        "付费",
+        "价格",
+        "性价比",
+        "值得",
+        "贵",
+        "报名",
+        "收费",
+        "值"
+      ]
+    },
+    "效率与工具": {
+      "count": 172,
+      "pct": 6.1,
+      "top_words": [
+        "方法",
+        "管理工具",
+        "衡量",
+        "工具",
+        "分析",
+        "总结",
+        "反思",
+        "app",
+        "效率",
+        "软件"
+      ]
+    }
+  },
+  "sentiment_distribution": {
+    "neutral": {
+      "count": 1355,
+      "pct": 70.6
+    },
+    "positive": {
+      "count": 431,
+      "pct": 22.5
+    },
+    "negative": {
+      "count": 133,
+      "pct": 6.9
+    }
+  },
+  "avg_sentiment_score": 0.5487754038561752,
+  "topic_sentiment_cross": {
+    "拖延与行动障碍": {
+      "positive_pct": 29.5,
+      "negative_pct": 31.8,
+      "neutral_pct": 38.6,
+      "total": 352
+    },
+    "教练方法与关系": {
+      "positive_pct": 34.8,
+      "negative_pct": 1.9,
+      "neutral_pct": 63.3,
+      "total": 313
+    },
+    "自我接纳与成长": {
+      "positive_pct": 59.7,
+      "negative_pct": 1.7,
+      "neutral_pct": 38.6,
+      "total": 293
+    },
+    "自律与习惯": {
+      "positive_pct": 50.0,
+      "negative_pct": 3.5,
+      "neutral_pct": 46.5,
+      "total": 260
+    },
+    "情绪与内耗": {
+      "positive_pct": 4.7,
+      "negative_pct": 24.2,
+      "neutral_pct": 71.1,
+      "total": 211
+    },
+    "目标与计划": {
+      "positive_pct": 46.4,
+      "negative_pct": 2.4,
+      "neutral_pct": 51.2,
+      "total": 207
+    },
+    "价值与价格": {
+      "positive_pct": 15.5,
+      "negative_pct": 0.0,
+      "neutral_pct": 84.5,
+      "total": 148
+    },
+    "效率与工具": {
+      "positive_pct": 50.7,
+      "negative_pct": 16.9,
+      "neutral_pct": 32.4,
+      "total": 148
+    }
+  },
+  "user_segment_distribution": {
+    "教练学习者": {
+      "count": 335,
+      "pct": 29.8,
+      "description": "想成为教练或学习教练方法，而非被教练"
+    },
+    "积极成长型": {
+      "count": 198,
+      "pct": 17.6,
+      "description": "已经在路上，需要更深度的陪伴和更高阶的指导"
+    },
+    "拖延挣扎型": {
+      "count": 198,
+      "pct": 17.6,
+      "description": "知道该做什么但迟迟不开始，在拖延-自责循环中挣扎"
+    },
+    "情绪内耗型": {
+      "count": 161,
+      "pct": 14.3,
+      "description": "被情绪消耗大量能量，需要先处理情绪再处理事情"
+    },
+    "方向迷茫型": {
+      "count": 131,
+      "pct": 11.6,
+      "description": "不是不想做，而是不知道做什么，需要厘清目标"
+    },
+    "习惯崩盘型": {
+      "count": 102,
+      "pct": 9.1,
+      "description": "尝试过多次建立习惯但总是中断，需要外部监督和轻推"
+    }
+  },
+  "top_liked_comments": [
+    {
+      "content": "很多伤害都是从试探开始的，说的太对了",
+      "likes": 9469,
+      "sentiment": "neutral",
+      "topics": [
+        "拖延与行动障碍"
+      ],
+      "segments": []
+    },
+    {
+      "content": "洁癖看的好爽谁懂……休息区就是干净区域……",
+      "likes": 9005,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "第12张下面的那张应该改成这样[doge]",
+      "likes": 8771,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "事实上幸福真的是下面这样的吗？",
+      "likes": 8703,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "每次舍不得用的时候就会提醒自己小时候那些存起来要等到最完美的机会再使用的精美贴纸",
+      "likes": 8399,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "好棒！换个角度豁然开朗 屡战屡败显得无能 屡败屡战显得持之以恒 但其实是一回事",
+      "likes": 8294,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "[笑哭R]你确实有点滞后，这篇文章疫情前发的话，你已经上热搜了，话题度直接爆了，大家被生活毒打几年，没有那么理想主义了",
+      "likes": 7767,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "我真的佩服一回家就洗澡的人，太有行动力了。我进门直奔沙发躺下，不搞到硬要睡了是不会再起身的，中间要啥东西一律喊老公拿，起不来一点[捂脸R]",
+      "likes": 7662,
+      "sentiment": "neutral",
+      "topics": [
+        "拖延与行动障碍"
+      ],
+      "segments": []
+    },
+    {
+      "content": "自律不是苦行僧，而是对自己的人生有掌控感。当你开始行动，焦虑自然就消失了。",
+      "likes": 7649,
+      "sentiment": "neutral",
+      "topics": [
+        "自律与习惯",
+        "拖延与行动障碍",
+        "情绪与内耗"
+      ],
+      "segments": [
+        "情绪内耗型"
+      ]
+    },
+    {
+      "content": "不知道为什么，我总觉得书里的口吻不像是一位母亲在写女儿，倒是像女儿再揣度母亲的想法，因为她的想法太像我了。我记得母亲有一天像我伸出一只手，我把我的手搭在她的手上边，立刻感到她手上厚重的茧子，粗剌剌的，我像是摸到了一张老树皮。而我的手只有握笔的指节侧边有一点茧子。我记得她年轻的时候十分爱美的，这么多年的蹉跎，她一直在做苦力活。她摸着我的手，她的手是硬邦邦的，手背已经有了一点棕色的斑点，轻微的，我当时",
+      "likes": 7541,
+      "sentiment": "positive",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "散了吧，ta下班能看到晚霞",
+      "likes": 7396,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "在绝对美貌的帖子下面就清静了，没人晒自己的照片",
+      "likes": 7165,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "他说的真的是对的，评论区里觉得不能等同是因为你还是没明白，没明白整个社会就是人类的游戏，事实是真的没有什么是重要的，人生是游戏，不要让自己痛苦，不要让任何人代庖你。",
+      "likes": 6922,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "我现在告诉自己：先做一个垃圾出来！这招还蛮有用，不给高期待，先做了，才有优化的可能。很多时候我一旦开始做了，后续一般会比我脑海里想象中的要容易很多，而且完成真的比完美要重要很多很多。",
+      "likes": 6922,
+      "sentiment": "neutral",
+      "topics": [
+        "拖延与行动障碍"
+      ],
+      "segments": []
+    },
+    {
+      "content": "这个视频应该多多推给男生……给我看干嘛",
+      "likes": 6901,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "“友情最可怕的不是绝交，而是我们已经不联系了，但我的妈妈还记得你的名字。”真的是这样。\n",
+      "likes": 6851,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "我想问……全磁吸～会不会影响磁场",
+      "likes": 6401,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "拖延的根源不是懒，是恐惧。怕做不好、怕被评价、怕失败。教练帮我看到的这一点，改变了我的人生。",
+      "likes": 6337,
+      "sentiment": "negative",
+      "topics": [
+        "拖延与行动障碍",
+        "情绪与内耗",
+        "教练方法与关系",
+        "自我接纳与成长"
+      ],
+      "segments": [
+        "拖延挣扎型",
+        "积极成长型",
+        "教练学习者"
+      ]
+    },
+    {
+      "content": "一个好的教练就像一面镜子，不评判不指责，只是温柔地让你看见自己。遇见她之后我才真正开始改变。",
+      "likes": 6204,
+      "sentiment": "positive",
+      "topics": [
+        "教练方法与关系",
+        "自我接纳与成长",
+        "拖延与行动障碍"
+      ],
+      "segments": [
+        "积极成长型",
+        "教练学习者"
+      ]
+    },
+    {
+      "content": "只有你也下水，她才能在水中拥抱你，帮助你。你根本不下水，水里只有她一个人。",
+      "likes": 6043,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "雷军的那句话对我很受用：先做成一坨💩，然后再优化",
+      "likes": 5998,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "内耗是可以停止的。第一步就是允许自己不完美，允许自己慢慢来。",
+      "likes": 5463,
+      "sentiment": "neutral",
+      "topics": [
+        "情绪与内耗",
+        "拖延与行动障碍",
+        "自我接纳与成长"
+      ],
+      "segments": [
+        "情绪内耗型"
+      ]
+    },
+    {
+      "content": "记小赢，记屁账，戒色，找骂练习，动一下就跑",
+      "likes": 5462,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "",
+      "likes": 5275,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "混沌邪恶治愈一切！[派对R]",
+      "likes": 5223,
+      "sentiment": "neutral",
+      "topics": [
+        "自我接纳与成长"
+      ],
+      "segments": []
+    },
+    {
+      "content": "",
+      "likes": 5171,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "我理解作者要表达的意思了，当想做一件事情但是没有恰当（完美）的情绪的时候，我们对数会先想要捋清情绪再去做事，但是事情是慢慢完成的，我们可以尝试一边接纳情绪一边处理事情。类似于“路是走出来的不是想出来”。",
+      "likes": 5006,
+      "sentiment": "positive",
+      "topics": [
+        "自我接纳与成长"
+      ],
+      "segments": []
+    },
+    {
+      "content": "人生没有白走的路，每一步都算数",
+      "likes": 5000,
+      "sentiment": "neutral",
+      "topics": [],
+      "segments": []
+    },
+    {
+      "content": "每天三个最重要的事，做完就收工，这个方法让我不再焦虑",
+      "likes": 5000,
+      "sentiment": "neutral",
+      "topics": [
+        "自律与习惯",
+        "效率与工具",
+        "情绪与内耗"
+      ],
+      "segments": [
+        "情绪内耗型",
+        "教练学习者"
+      ]
+    },
+    {
+      "content": "找教练有用吗？价格不便宜但确实帮我突破了瓶颈",
+      "likes": 5000,
+      "sentiment": "neutral",
+      "topics": [
+        "教练方法与关系",
+        "价值与价格",
+        "自我接纳与成长"
+      ],
+      "segments": [
+        "积极成长型",
+        "教练学习者"
+      ]
+    }
+  ],
+  "daily_trend": [
+    {
+      "create_date": "2022-06-29",
+      "count": 2,
+      "avg_sentiment": -1.0,
+      "total_likes": 443.0
+    },
+    {
+      "create_date": "2022-06-30",
+      "count": 1,
+      "avg_sentiment": -2.0,
+      "total_likes": 84.0
+    },
+    {
+      "create_date": "2022-07-04",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 11.0
+    },
+    {
+      "create_date": "2022-07-07",
+      "count": 2,
+      "avg_sentiment": 1.3,
+      "total_likes": 40.0
+    },
+    {
+      "create_date": "2022-07-08",
+      "count": 2,
+      "avg_sentiment": 2.3,
+      "total_likes": 154.0
+    },
+    {
+      "create_date": "2022-07-09",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 11.0
+    },
+    {
+      "create_date": "2022-07-10",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2022-07-11",
+      "count": 1,
+      "avg_sentiment": 3.8,
+      "total_likes": 29.0
+    },
+    {
+      "create_date": "2022-07-24",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2022-07-26",
+      "count": 2,
+      "avg_sentiment": 8.799999999999999,
+      "total_likes": 55.0
+    },
+    {
+      "create_date": "2022-07-30",
+      "count": 1,
+      "avg_sentiment": 2.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2022-08-23",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 9.0
+    },
+    {
+      "create_date": "2022-09-18",
+      "count": 1,
+      "avg_sentiment": -4.0,
+      "total_likes": 5.0
+    },
+    {
+      "create_date": "2023-07-08",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2023-07-18",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2023-09-24",
+      "count": 1,
+      "avg_sentiment": -4.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2023-09-27",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2023-10-18",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2023-11-02",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2023-11-06",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2023-12-23",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-02-12",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 1513.0
+    },
+    {
+      "create_date": "2024-02-13",
+      "count": 6,
+      "avg_sentiment": 0.16666666666666666,
+      "total_likes": 4472.0
+    },
+    {
+      "create_date": "2024-02-16",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2024-02-22",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 36.0
+    },
+    {
+      "create_date": "2024-02-23",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-04-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-04-16",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 173.0
+    },
+    {
+      "create_date": "2024-04-25",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 5.0
+    },
+    {
+      "create_date": "2024-04-26",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 348.0
+    },
+    {
+      "create_date": "2024-05-03",
+      "count": 1,
+      "avg_sentiment": -1.3,
+      "total_likes": 325.0
+    },
+    {
+      "create_date": "2024-05-05",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-05-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 15.0
+    },
+    {
+      "create_date": "2024-05-19",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 307.0
+    },
+    {
+      "create_date": "2024-05-27",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-05-30",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2024-06-03",
+      "count": 4,
+      "avg_sentiment": -0.5,
+      "total_likes": 2577.0
+    },
+    {
+      "create_date": "2024-06-04",
+      "count": 2,
+      "avg_sentiment": -1.5,
+      "total_likes": 67.0
+    },
+    {
+      "create_date": "2024-06-05",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 36.0
+    },
+    {
+      "create_date": "2024-06-06",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2024-06-09",
+      "count": 2,
+      "avg_sentiment": -3.8,
+      "total_likes": 664.0
+    },
+    {
+      "create_date": "2024-06-10",
+      "count": 7,
+      "avg_sentiment": -2.0714285714285716,
+      "total_likes": 7486.0
+    },
+    {
+      "create_date": "2024-06-11",
+      "count": 2,
+      "avg_sentiment": 0.6500000000000001,
+      "total_likes": 68.0
+    },
+    {
+      "create_date": "2024-07-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-07-11",
+      "count": 2,
+      "avg_sentiment": -0.85,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2024-07-12",
+      "count": 3,
+      "avg_sentiment": -3.1666666666666665,
+      "total_likes": 238.0
+    },
+    {
+      "create_date": "2024-07-14",
+      "count": 1,
+      "avg_sentiment": 3.8,
+      "total_likes": 17.0
+    },
+    {
+      "create_date": "2024-07-21",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-07-22",
+      "count": 3,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-07-23",
+      "count": 4,
+      "avg_sentiment": 0.0,
+      "total_likes": 134.0
+    },
+    {
+      "create_date": "2024-07-24",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-07-30",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-08-15",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-08-19",
+      "count": 1,
+      "avg_sentiment": 2.6,
+      "total_likes": 11.0
+    },
+    {
+      "create_date": "2024-08-20",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-08-23",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-08-24",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-08-26",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-08-27",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-08-28",
+      "count": 4,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-08-29",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-08-30",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-09-03",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2024-09-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-09-12",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-09-16",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-09-21",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-09-23",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-10-11",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 38.0
+    },
+    {
+      "create_date": "2024-10-12",
+      "count": 1,
+      "avg_sentiment": 2.0,
+      "total_likes": 4727.0
+    },
+    {
+      "create_date": "2024-10-19",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1567.0
+    },
+    {
+      "create_date": "2024-10-23",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 6922.0
+    },
+    {
+      "create_date": "2024-10-24",
+      "count": 2,
+      "avg_sentiment": 3.3,
+      "total_likes": 661.0
+    },
+    {
+      "create_date": "2024-10-25",
+      "count": 1,
+      "avg_sentiment": -2.6,
+      "total_likes": 1227.0
+    },
+    {
+      "create_date": "2024-10-26",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 19.0
+    },
+    {
+      "create_date": "2024-10-29",
+      "count": 1,
+      "avg_sentiment": -1.3,
+      "total_likes": 67.0
+    },
+    {
+      "create_date": "2024-11-04",
+      "count": 1,
+      "avg_sentiment": -2.0,
+      "total_likes": 118.0
+    },
+    {
+      "create_date": "2024-11-12",
+      "count": 5,
+      "avg_sentiment": -0.5800000000000001,
+      "total_likes": 5168.0
+    },
+    {
+      "create_date": "2024-11-13",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 36.0
+    },
+    {
+      "create_date": "2024-11-14",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 300.0
+    },
+    {
+      "create_date": "2024-11-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 162.0
+    },
+    {
+      "create_date": "2024-11-25",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-12-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-12-20",
+      "count": 4,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2024-12-21",
+      "count": 3,
+      "avg_sentiment": -0.6666666666666666,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-12-22",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2024-12-29",
+      "count": 3,
+      "avg_sentiment": 1.7,
+      "total_likes": 4183.0
+    },
+    {
+      "create_date": "2024-12-30",
+      "count": 3,
+      "avg_sentiment": 1.3,
+      "total_likes": 3662.0
+    },
+    {
+      "create_date": "2025-01-01",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 9.0
+    },
+    {
+      "create_date": "2025-01-03",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 26.0
+    },
+    {
+      "create_date": "2025-01-05",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-01-06",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-01-07",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-01-14",
+      "count": 4,
+      "avg_sentiment": 0.0,
+      "total_likes": 20.0
+    },
+    {
+      "create_date": "2025-01-15",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-01-18",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-01-21",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-01-23",
+      "count": 1,
+      "avg_sentiment": 2.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-01-24",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 1069.0
+    },
+    {
+      "create_date": "2025-01-25",
+      "count": 4,
+      "avg_sentiment": -0.04999999999999999,
+      "total_likes": 195.0
+    },
+    {
+      "create_date": "2025-01-29",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-01-30",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 10.0
+    },
+    {
+      "create_date": "2025-01-31",
+      "count": 1,
+      "avg_sentiment": -4.0,
+      "total_likes": 70.0
+    },
+    {
+      "create_date": "2025-02-01",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 37.0
+    },
+    {
+      "create_date": "2025-02-03",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-02-05",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 94.0
+    },
+    {
+      "create_date": "2025-02-11",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-02-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-02-19",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 32.0
+    },
+    {
+      "create_date": "2025-02-20",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 10.0
+    },
+    {
+      "create_date": "2025-03-02",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-03-06",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-03-15",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-03-19",
+      "count": 1,
+      "avg_sentiment": -2.6,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-03-31",
+      "count": 6,
+      "avg_sentiment": 0.0,
+      "total_likes": 16447.0
+    },
+    {
+      "create_date": "2025-04-07",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 118.0
+    },
+    {
+      "create_date": "2025-04-08",
+      "count": 6,
+      "avg_sentiment": 1.0833333333333333,
+      "total_likes": 4283.0
+    },
+    {
+      "create_date": "2025-04-09",
+      "count": 3,
+      "avg_sentiment": -0.6666666666666666,
+      "total_likes": 436.0
+    },
+    {
+      "create_date": "2025-04-10",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1123.0
+    },
+    {
+      "create_date": "2025-04-11",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 431.0
+    },
+    {
+      "create_date": "2025-04-12",
+      "count": 1,
+      "avg_sentiment": 3.9000000000000004,
+      "total_likes": 1146.0
+    },
+    {
+      "create_date": "2025-04-16",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-04-26",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 256.0
+    },
+    {
+      "create_date": "2025-05-13",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-05-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-05-20",
+      "count": 4,
+      "avg_sentiment": -0.19999999999999996,
+      "total_likes": 5918.0
+    },
+    {
+      "create_date": "2025-05-21",
+      "count": 3,
+      "avg_sentiment": 0.6666666666666666,
+      "total_likes": 6257.0
+    },
+    {
+      "create_date": "2025-05-22",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 76.0
+    },
+    {
+      "create_date": "2025-05-25",
+      "count": 3,
+      "avg_sentiment": -0.3333333333333333,
+      "total_likes": 11509.0
+    },
+    {
+      "create_date": "2025-05-26",
+      "count": 6,
+      "avg_sentiment": 0.3166666666666667,
+      "total_likes": 2488.0
+    },
+    {
+      "create_date": "2025-05-27",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 23.0
+    },
+    {
+      "create_date": "2025-05-28",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 127.0
+    },
+    {
+      "create_date": "2025-05-29",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 12.0
+    },
+    {
+      "create_date": "2025-06-02",
+      "count": 5,
+      "avg_sentiment": 0.0,
+      "total_likes": 4690.0
+    },
+    {
+      "create_date": "2025-06-03",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 417.0
+    },
+    {
+      "create_date": "2025-06-05",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-06-06",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-06-08",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-06-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 30.0
+    },
+    {
+      "create_date": "2025-06-17",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 87.0
+    },
+    {
+      "create_date": "2025-06-19",
+      "count": 3,
+      "avg_sentiment": 0.5666666666666667,
+      "total_likes": 5525.0
+    },
+    {
+      "create_date": "2025-06-20",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-06-22",
+      "count": 1,
+      "avg_sentiment": 1.9,
+      "total_likes": 20.0
+    },
+    {
+      "create_date": "2025-06-24",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 39.0
+    },
+    {
+      "create_date": "2025-07-01",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-07-02",
+      "count": 6,
+      "avg_sentiment": 0.16666666666666666,
+      "total_likes": 12194.0
+    },
+    {
+      "create_date": "2025-07-03",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 2096.0
+    },
+    {
+      "create_date": "2025-07-04",
+      "count": 1,
+      "avg_sentiment": 2.0,
+      "total_likes": 1835.0
+    },
+    {
+      "create_date": "2025-07-05",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 4.0
+    },
+    {
+      "create_date": "2025-07-07",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 11.0
+    },
+    {
+      "create_date": "2025-07-08",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-07-17",
+      "count": 1,
+      "avg_sentiment": -6.4,
+      "total_likes": 47.0
+    },
+    {
+      "create_date": "2025-07-18",
+      "count": 1,
+      "avg_sentiment": -2.0,
+      "total_likes": 13.0
+    },
+    {
+      "create_date": "2025-07-21",
+      "count": 1,
+      "avg_sentiment": 13.6,
+      "total_likes": 7.0
+    },
+    {
+      "create_date": "2025-07-23",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-07-26",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 243.0
+    },
+    {
+      "create_date": "2025-07-27",
+      "count": 7,
+      "avg_sentiment": 0.14285714285714285,
+      "total_likes": 2575.0
+    },
+    {
+      "create_date": "2025-07-28",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 68.0
+    },
+    {
+      "create_date": "2025-07-30",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 31.0
+    },
+    {
+      "create_date": "2025-08-02",
+      "count": 8,
+      "avg_sentiment": -0.625,
+      "total_likes": 28.0
+    },
+    {
+      "create_date": "2025-08-03",
+      "count": 5,
+      "avg_sentiment": 0.38,
+      "total_likes": 15.0
+    },
+    {
+      "create_date": "2025-08-04",
+      "count": 3,
+      "avg_sentiment": 2.6,
+      "total_likes": 57.0
+    },
+    {
+      "create_date": "2025-08-05",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-08-06",
+      "count": 10,
+      "avg_sentiment": 0.65,
+      "total_likes": 182.0
+    },
+    {
+      "create_date": "2025-08-07",
+      "count": 4,
+      "avg_sentiment": 2.025,
+      "total_likes": 38.0
+    },
+    {
+      "create_date": "2025-08-08",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 86.0
+    },
+    {
+      "create_date": "2025-08-14",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 51.0
+    },
+    {
+      "create_date": "2025-08-15",
+      "count": 1,
+      "avg_sentiment": -3.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2025-08-23",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-08-24",
+      "count": 4,
+      "avg_sentiment": -0.25,
+      "total_likes": 27.0
+    },
+    {
+      "create_date": "2025-08-28",
+      "count": 2,
+      "avg_sentiment": -1.0,
+      "total_likes": 421.0
+    },
+    {
+      "create_date": "2025-08-29",
+      "count": 1,
+      "avg_sentiment": -5.699999999999999,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-08-30",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 4.0
+    },
+    {
+      "create_date": "2025-09-01",
+      "count": 3,
+      "avg_sentiment": 0.3333333333333333,
+      "total_likes": 5.0
+    },
+    {
+      "create_date": "2025-09-03",
+      "count": 1,
+      "avg_sentiment": -2.6,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-09-04",
+      "count": 2,
+      "avg_sentiment": 1.3,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-09-05",
+      "count": 1,
+      "avg_sentiment": 14.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-09-06",
+      "count": 3,
+      "avg_sentiment": 2.1333333333333333,
+      "total_likes": 40.0
+    },
+    {
+      "create_date": "2025-09-07",
+      "count": 3,
+      "avg_sentiment": 1.2,
+      "total_likes": 130.0
+    },
+    {
+      "create_date": "2025-09-08",
+      "count": 3,
+      "avg_sentiment": 0.6666666666666666,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-09-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2025-09-11",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-09-12",
+      "count": 7,
+      "avg_sentiment": 0.14285714285714285,
+      "total_likes": 57.0
+    },
+    {
+      "create_date": "2025-09-13",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-09-14",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-09-16",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-09-20",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-09-21",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-09-22",
+      "count": 1,
+      "avg_sentiment": 2.6,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-09-27",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-09-28",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2025-10-07",
+      "count": 1,
+      "avg_sentiment": 6.4,
+      "total_likes": 164.0
+    },
+    {
+      "create_date": "2025-10-08",
+      "count": 2,
+      "avg_sentiment": -1.8,
+      "total_likes": 275.0
+    },
+    {
+      "create_date": "2025-10-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 350.0
+    },
+    {
+      "create_date": "2025-10-11",
+      "count": 3,
+      "avg_sentiment": 10.0,
+      "total_likes": 140.0
+    },
+    {
+      "create_date": "2025-10-12",
+      "count": 5,
+      "avg_sentiment": -0.6,
+      "total_likes": 35.0
+    },
+    {
+      "create_date": "2025-10-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-10-16",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-10-18",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-10-19",
+      "count": 2,
+      "avg_sentiment": 0.8,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-10-20",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 189.0
+    },
+    {
+      "create_date": "2025-10-22",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-10-24",
+      "count": 1,
+      "avg_sentiment": 3.8,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-10-28",
+      "count": 3,
+      "avg_sentiment": 0.3333333333333333,
+      "total_likes": 1223.0
+    },
+    {
+      "create_date": "2025-10-31",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-11-03",
+      "count": 3,
+      "avg_sentiment": 0.43333333333333335,
+      "total_likes": 158.0
+    },
+    {
+      "create_date": "2025-11-04",
+      "count": 6,
+      "avg_sentiment": 0.0,
+      "total_likes": 103.0
+    },
+    {
+      "create_date": "2025-11-05",
+      "count": 1,
+      "avg_sentiment": -1.3,
+      "total_likes": 10.0
+    },
+    {
+      "create_date": "2025-11-06",
+      "count": 14,
+      "avg_sentiment": 2.9214285714285713,
+      "total_likes": 4729.0
+    },
+    {
+      "create_date": "2025-11-07",
+      "count": 4,
+      "avg_sentiment": 1.075,
+      "total_likes": 3154.0
+    },
+    {
+      "create_date": "2025-11-08",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2598.0
+    },
+    {
+      "create_date": "2025-11-10",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 31.0
+    },
+    {
+      "create_date": "2025-11-13",
+      "count": 6,
+      "avg_sentiment": 0.21666666666666667,
+      "total_likes": 20693.0
+    },
+    {
+      "create_date": "2025-11-14",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 1967.0
+    },
+    {
+      "create_date": "2025-11-15",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-11-16",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-11-18",
+      "count": 4,
+      "avg_sentiment": 0.575,
+      "total_likes": 22.0
+    },
+    {
+      "create_date": "2025-11-19",
+      "count": 3,
+      "avg_sentiment": 0.0,
+      "total_likes": 67.0
+    },
+    {
+      "create_date": "2025-11-20",
+      "count": 5,
+      "avg_sentiment": -0.2,
+      "total_likes": 1848.0
+    },
+    {
+      "create_date": "2025-11-21",
+      "count": 11,
+      "avg_sentiment": 1.0181818181818183,
+      "total_likes": 1066.0
+    },
+    {
+      "create_date": "2025-11-22",
+      "count": 4,
+      "avg_sentiment": 0.0,
+      "total_likes": 85.0
+    },
+    {
+      "create_date": "2025-11-23",
+      "count": 3,
+      "avg_sentiment": 0.6666666666666666,
+      "total_likes": 84.0
+    },
+    {
+      "create_date": "2025-11-24",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-11-25",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 490.0
+    },
+    {
+      "create_date": "2025-11-26",
+      "count": 6,
+      "avg_sentiment": 0.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2025-11-27",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-11-28",
+      "count": 3,
+      "avg_sentiment": 0.0,
+      "total_likes": 5.0
+    },
+    {
+      "create_date": "2025-11-29",
+      "count": 2,
+      "avg_sentiment": -6.6000000000000005,
+      "total_likes": 4957.0
+    },
+    {
+      "create_date": "2025-11-30",
+      "count": 5,
+      "avg_sentiment": -1.2,
+      "total_likes": 1944.0
+    },
+    {
+      "create_date": "2025-12-01",
+      "count": 5,
+      "avg_sentiment": 0.24000000000000005,
+      "total_likes": 768.0
+    },
+    {
+      "create_date": "2025-12-02",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-12-03",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2025-12-04",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-12-05",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 14.0
+    },
+    {
+      "create_date": "2025-12-06",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-12-07",
+      "count": 1,
+      "avg_sentiment": 1.0,
+      "total_likes": 14.0
+    },
+    {
+      "create_date": "2025-12-08",
+      "count": 1,
+      "avg_sentiment": 2.0,
+      "total_likes": 52.0
+    },
+    {
+      "create_date": "2025-12-09",
+      "count": 1,
+      "avg_sentiment": 4.800000000000001,
+      "total_likes": 619.0
+    },
+    {
+      "create_date": "2025-12-10",
+      "count": 2,
+      "avg_sentiment": -0.15000000000000002,
+      "total_likes": 220.0
+    },
+    {
+      "create_date": "2025-12-11",
+      "count": 5,
+      "avg_sentiment": -1.3400000000000003,
+      "total_likes": 342.0
+    },
+    {
+      "create_date": "2025-12-12",
+      "count": 3,
+      "avg_sentiment": 2.7999999999999994,
+      "total_likes": 566.0
+    },
+    {
+      "create_date": "2025-12-13",
+      "count": 1,
+      "avg_sentiment": 2.0,
+      "total_likes": 218.0
+    },
+    {
+      "create_date": "2025-12-17",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 47.0
+    },
+    {
+      "create_date": "2025-12-18",
+      "count": 8,
+      "avg_sentiment": -0.9625,
+      "total_likes": 2768.0
+    },
+    {
+      "create_date": "2025-12-19",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 51.0
+    },
+    {
+      "create_date": "2025-12-22",
+      "count": 3,
+      "avg_sentiment": -0.6666666666666666,
+      "total_likes": 175.0
+    },
+    {
+      "create_date": "2025-12-23",
+      "count": 1,
+      "avg_sentiment": -1.6,
+      "total_likes": 42.0
+    },
+    {
+      "create_date": "2025-12-24",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2025-12-26",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2025-12-28",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2025-12-29",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 6.0
+    },
+    {
+      "create_date": "2025-12-30",
+      "count": 4,
+      "avg_sentiment": 0.07500000000000001,
+      "total_likes": 101.0
+    },
+    {
+      "create_date": "2025-12-31",
+      "count": 3,
+      "avg_sentiment": -0.3333333333333333,
+      "total_likes": 20.0
+    },
+    {
+      "create_date": "2026-01-01",
+      "count": 2,
+      "avg_sentiment": -0.65,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-01-02",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2026-01-03",
+      "count": 7,
+      "avg_sentiment": -0.32857142857142857,
+      "total_likes": 13938.0
+    },
+    {
+      "create_date": "2026-01-04",
+      "count": 4,
+      "avg_sentiment": 0.75,
+      "total_likes": 7658.0
+    },
+    {
+      "create_date": "2026-01-05",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 2391.0
+    },
+    {
+      "create_date": "2026-01-06",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 391.0
+    },
+    {
+      "create_date": "2026-01-09",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 5.0
+    },
+    {
+      "create_date": "2026-01-10",
+      "count": 13,
+      "avg_sentiment": 0.14615384615384616,
+      "total_likes": 17642.0
+    },
+    {
+      "create_date": "2026-01-11",
+      "count": 4,
+      "avg_sentiment": 0.325,
+      "total_likes": 518.0
+    },
+    {
+      "create_date": "2026-01-12",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-01-13",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-01-14",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 4.0
+    },
+    {
+      "create_date": "2026-01-16",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 480.0
+    },
+    {
+      "create_date": "2026-01-19",
+      "count": 2,
+      "avg_sentiment": 0.5,
+      "total_likes": 1468.0
+    },
+    {
+      "create_date": "2026-01-21",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 175.0
+    },
+    {
+      "create_date": "2026-01-22",
+      "count": 3,
+      "avg_sentiment": 0.3333333333333333,
+      "total_likes": 132.0
+    },
+    {
+      "create_date": "2026-01-23",
+      "count": 4,
+      "avg_sentiment": 0.65,
+      "total_likes": 1874.0
+    },
+    {
+      "create_date": "2026-01-24",
+      "count": 2,
+      "avg_sentiment": -0.5,
+      "total_likes": 41.0
+    },
+    {
+      "create_date": "2026-01-25",
+      "count": 2,
+      "avg_sentiment": 3.2,
+      "total_likes": 13.0
+    },
+    {
+      "create_date": "2026-01-26",
+      "count": 2,
+      "avg_sentiment": 3.1,
+      "total_likes": 40.0
+    },
+    {
+      "create_date": "2026-01-27",
+      "count": 1,
+      "avg_sentiment": -6.0,
+      "total_likes": 25.0
+    },
+    {
+      "create_date": "2026-01-29",
+      "count": 2,
+      "avg_sentiment": 0.65,
+      "total_likes": 66.0
+    },
+    {
+      "create_date": "2026-01-30",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 12.0
+    },
+    {
+      "create_date": "2026-02-01",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-02-02",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-02-03",
+      "count": 6,
+      "avg_sentiment": -0.31666666666666665,
+      "total_likes": 13161.0
+    },
+    {
+      "create_date": "2026-02-04",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 9.0
+    },
+    {
+      "create_date": "2026-02-05",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 68.0
+    },
+    {
+      "create_date": "2026-02-06",
+      "count": 2,
+      "avg_sentiment": 1.0,
+      "total_likes": 268.0
+    },
+    {
+      "create_date": "2026-02-07",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2026-02-08",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 8.0
+    },
+    {
+      "create_date": "2026-02-09",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-02-19",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 4.0
+    },
+    {
+      "create_date": "2026-02-23",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-02-27",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-02-28",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 114.0
+    },
+    {
+      "create_date": "2026-03-01",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 37.0
+    },
+    {
+      "create_date": "2026-03-03",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2026-03-04",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2026-03-06",
+      "count": 3,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-03-07",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-03-08",
+      "count": 6,
+      "avg_sentiment": -0.16666666666666666,
+      "total_likes": 995.0
+    },
+    {
+      "create_date": "2026-03-09",
+      "count": 6,
+      "avg_sentiment": -0.3333333333333333,
+      "total_likes": 3112.0
+    },
+    {
+      "create_date": "2026-03-10",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 1872.0
+    },
+    {
+      "create_date": "2026-03-11",
+      "count": 3,
+      "avg_sentiment": 0.0,
+      "total_likes": 762.0
+    },
+    {
+      "create_date": "2026-03-12",
+      "count": 7,
+      "avg_sentiment": -0.32857142857142857,
+      "total_likes": 10952.0
+    },
+    {
+      "create_date": "2026-03-13",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 7.0
+    },
+    {
+      "create_date": "2026-03-14",
+      "count": 3,
+      "avg_sentiment": 1.2,
+      "total_likes": 58.0
+    },
+    {
+      "create_date": "2026-03-15",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-03-22",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-03-24",
+      "count": 2,
+      "avg_sentiment": 1.0,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2026-03-25",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-03-28",
+      "count": 1,
+      "avg_sentiment": 1.3,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-03-29",
+      "count": 1,
+      "avg_sentiment": -1.0,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2026-03-30",
+      "count": 2,
+      "avg_sentiment": 0.8,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2026-04-02",
+      "count": 4,
+      "avg_sentiment": 0.07500000000000001,
+      "total_likes": 2422.0
+    },
+    {
+      "create_date": "2026-04-03",
+      "count": 6,
+      "avg_sentiment": 1.4666666666666668,
+      "total_likes": 389.0
+    },
+    {
+      "create_date": "2026-04-04",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 136.0
+    },
+    {
+      "create_date": "2026-04-05",
+      "count": 3,
+      "avg_sentiment": 0.6333333333333334,
+      "total_likes": 1859.0
+    },
+    {
+      "create_date": "2026-04-06",
+      "count": 8,
+      "avg_sentiment": 0.0875,
+      "total_likes": 13669.0
+    },
+    {
+      "create_date": "2026-04-09",
+      "count": 4,
+      "avg_sentiment": -0.25,
+      "total_likes": 2309.0
+    },
+    {
+      "create_date": "2026-04-10",
+      "count": 3,
+      "avg_sentiment": -0.5333333333333333,
+      "total_likes": 9252.0
+    },
+    {
+      "create_date": "2026-04-11",
+      "count": 7,
+      "avg_sentiment": -0.42857142857142855,
+      "total_likes": 4757.0
+    },
+    {
+      "create_date": "2026-04-12",
+      "count": 6,
+      "avg_sentiment": 0.0,
+      "total_likes": 473.0
+    },
+    {
+      "create_date": "2026-04-13",
+      "count": 3,
+      "avg_sentiment": 1.6000000000000003,
+      "total_likes": 9785.0
+    },
+    {
+      "create_date": "2026-04-14",
+      "count": 3,
+      "avg_sentiment": 0.3333333333333333,
+      "total_likes": 7770.0
+    },
+    {
+      "create_date": "2026-04-15",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-04-16",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 7.0
+    },
+    {
+      "create_date": "2026-04-17",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 16.0
+    },
+    {
+      "create_date": "2026-04-19",
+      "count": 1,
+      "avg_sentiment": 3.2,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2026-04-20",
+      "count": 16,
+      "avg_sentiment": 0.5812499999999999,
+      "total_likes": 26585.0
+    },
+    {
+      "create_date": "2026-04-22",
+      "count": 1,
+      "avg_sentiment": 4.800000000000001,
+      "total_likes": 185.0
+    },
+    {
+      "create_date": "2026-04-24",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 23.0
+    },
+    {
+      "create_date": "2026-04-25",
+      "count": 1,
+      "avg_sentiment": -1.6,
+      "total_likes": 1.0
+    },
+    {
+      "create_date": "2026-04-27",
+      "count": 2,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    },
+    {
+      "create_date": "2026-04-29",
+      "count": 4,
+      "avg_sentiment": 0.8,
+      "total_likes": 7347.0
+    },
+    {
+      "create_date": "2026-04-30",
+      "count": 9,
+      "avg_sentiment": 1.1111111111111112,
+      "total_likes": 223.0
+    },
+    {
+      "create_date": "2026-05-01",
+      "count": 11,
+      "avg_sentiment": 1.3454545454545455,
+      "total_likes": 153.0
+    },
+    {
+      "create_date": "2026-05-02",
+      "count": 20,
+      "avg_sentiment": 0.4600000000000001,
+      "total_likes": 1583.0
+    },
+    {
+      "create_date": "2026-05-03",
+      "count": 13,
+      "avg_sentiment": 0.25384615384615383,
+      "total_likes": 960.0
+    },
+    {
+      "create_date": "2026-05-04",
+      "count": 18,
+      "avg_sentiment": 0.43333333333333335,
+      "total_likes": 547.0
+    },
+    {
+      "create_date": "2026-05-05",
+      "count": 10,
+      "avg_sentiment": 0.6799999999999999,
+      "total_likes": 64.0
+    },
+    {
+      "create_date": "2026-05-06",
+      "count": 12,
+      "avg_sentiment": 1.2750000000000001,
+      "total_likes": 20.0
+    },
+    {
+      "create_date": "2026-05-07",
+      "count": 7,
+      "avg_sentiment": 0.5571428571428572,
+      "total_likes": 42.0
+    },
+    {
+      "create_date": "2026-05-08",
+      "count": 13,
+      "avg_sentiment": 1.5615384615384615,
+      "total_likes": 155.0
+    },
+    {
+      "create_date": "2026-05-09",
+      "count": 14,
+      "avg_sentiment": 0.7428571428571429,
+      "total_likes": 7584.0
+    },
+    {
+      "create_date": "2026-05-10",
+      "count": 20,
+      "avg_sentiment": 0.7849999999999999,
+      "total_likes": 2020.0
+    },
+    {
+      "create_date": "2026-05-11",
+      "count": 6,
+      "avg_sentiment": 0.43333333333333335,
+      "total_likes": 106.0
+    },
+    {
+      "create_date": "2026-05-12",
+      "count": 16,
+      "avg_sentiment": 0.83125,
+      "total_likes": 61.0
+    },
+    {
+      "create_date": "2026-05-13",
+      "count": 21,
+      "avg_sentiment": 1.5428571428571431,
+      "total_likes": 23888.0
+    },
+    {
+      "create_date": "2026-05-14",
+      "count": 17,
+      "avg_sentiment": 0.6058823529411765,
+      "total_likes": 1095.0
+    },
+    {
+      "create_date": "2026-05-15",
+      "count": 12,
+      "avg_sentiment": 0.8416666666666667,
+      "total_likes": 44.0
+    },
+    {
+      "create_date": "2026-05-16",
+      "count": 18,
+      "avg_sentiment": 0.7944444444444445,
+      "total_likes": 1570.0
+    },
+    {
+      "create_date": "2026-05-17",
+      "count": 11,
+      "avg_sentiment": 0.30909090909090914,
+      "total_likes": 3277.0
+    },
+    {
+      "create_date": "2026-05-18",
+      "count": 13,
+      "avg_sentiment": 0.4846153846153846,
+      "total_likes": 1060.0
+    },
+    {
+      "create_date": "2026-05-19",
+      "count": 15,
+      "avg_sentiment": 0.4533333333333333,
+      "total_likes": 218.0
+    },
+    {
+      "create_date": "2026-05-20",
+      "count": 17,
+      "avg_sentiment": 0.9529411764705884,
+      "total_likes": 141.0
+    },
+    {
+      "create_date": "2026-05-21",
+      "count": 9,
+      "avg_sentiment": 1.6,
+      "total_likes": 520.0
+    },
+    {
+      "create_date": "2026-05-22",
+      "count": 10,
+      "avg_sentiment": 0.6599999999999999,
+      "total_likes": 2905.0
+    },
+    {
+      "create_date": "2026-05-23",
+      "count": 16,
+      "avg_sentiment": 1.3125,
+      "total_likes": 67.0
+    },
+    {
+      "create_date": "2026-05-24",
+      "count": 7,
+      "avg_sentiment": 0.7000000000000001,
+      "total_likes": 17.0
+    },
+    {
+      "create_date": "2026-05-25",
+      "count": 19,
+      "avg_sentiment": 1.0157894736842106,
+      "total_likes": 51.0
+    },
+    {
+      "create_date": "2026-05-26",
+      "count": 11,
+      "avg_sentiment": 0.890909090909091,
+      "total_likes": 14.0
+    },
+    {
+      "create_date": "2026-05-27",
+      "count": 9,
+      "avg_sentiment": 1.2888888888888888,
+      "total_likes": 17.0
+    },
+    {
+      "create_date": "2026-05-28",
+      "count": 11,
+      "avg_sentiment": 1.3363636363636364,
+      "total_likes": 78.0
+    },
+    {
+      "create_date": "2026-05-29",
+      "count": 12,
+      "avg_sentiment": 0.7333333333333334,
+      "total_likes": 572.0
+    },
+    {
+      "create_date": "2026-05-30",
+      "count": 10,
+      "avg_sentiment": -0.07999999999999999,
+      "total_likes": 131.0
+    },
+    {
+      "create_date": "2026-05-31",
+      "count": 15,
+      "avg_sentiment": 0.6066666666666668,
+      "total_likes": 6723.0
+    },
+    {
+      "create_date": "2026-06-01",
+      "count": 9,
+      "avg_sentiment": 1.577777777777778,
+      "total_likes": 3509.0
+    },
+    {
+      "create_date": "2026-06-02",
+      "count": 9,
+      "avg_sentiment": 0.5777777777777778,
+      "total_likes": 43.0
+    },
+    {
+      "create_date": "2026-06-03",
+      "count": 11,
+      "avg_sentiment": 0.6818181818181818,
+      "total_likes": 56.0
+    },
+    {
+      "create_date": "2026-06-04",
+      "count": 8,
+      "avg_sentiment": 0.9,
+      "total_likes": 24.0
+    },
+    {
+      "create_date": "2026-06-05",
+      "count": 5,
+      "avg_sentiment": -0.36,
+      "total_likes": 56.0
+    },
+    {
+      "create_date": "2026-06-06",
+      "count": 10,
+      "avg_sentiment": 0.21000000000000005,
+      "total_likes": 27.0
+    },
+    {
+      "create_date": "2026-06-07",
+      "count": 9,
+      "avg_sentiment": 0.5777777777777778,
+      "total_likes": 14.0
+    },
+    {
+      "create_date": "2026-06-08",
+      "count": 15,
+      "avg_sentiment": 0.23333333333333334,
+      "total_likes": 46.0
+    },
+    {
+      "create_date": "2026-06-09",
+      "count": 10,
+      "avg_sentiment": 0.76,
+      "total_likes": 117.0
+    },
+    {
+      "create_date": "2026-06-10",
+      "count": 10,
+      "avg_sentiment": 0.78,
+      "total_likes": 6033.0
+    },
+    {
+      "create_date": "2026-06-11",
+      "count": 13,
+      "avg_sentiment": -0.4846153846153846,
+      "total_likes": 101.0
+    },
+    {
+      "create_date": "2026-06-12",
+      "count": 6,
+      "avg_sentiment": 1.6500000000000001,
+      "total_likes": 18.0
+    },
+    {
+      "create_date": "2026-06-13",
+      "count": 14,
+      "avg_sentiment": 1.6285714285714286,
+      "total_likes": 7722.0
+    },
+    {
+      "create_date": "2026-06-14",
+      "count": 16,
+      "avg_sentiment": 0.29375,
+      "total_likes": 10825.0
+    },
+    {
+      "create_date": "2026-06-15",
+      "count": 18,
+      "avg_sentiment": 0.5222222222222223,
+      "total_likes": 5797.0
+    },
+    {
+      "create_date": "2026-06-16",
+      "count": 15,
+      "avg_sentiment": 1.18,
+      "total_likes": 2504.0
+    },
+    {
+      "create_date": "2026-06-17",
+      "count": 11,
+      "avg_sentiment": 1.8181818181818181,
+      "total_likes": 659.0
+    },
+    {
+      "create_date": "2026-06-18",
+      "count": 12,
+      "avg_sentiment": 0.8833333333333334,
+      "total_likes": 4199.0
+    },
+    {
+      "create_date": "2026-06-19",
+      "count": 12,
+      "avg_sentiment": 1.55,
+      "total_likes": 525.0
+    },
+    {
+      "create_date": "2026-06-20",
+      "count": 8,
+      "avg_sentiment": 0.7,
+      "total_likes": 31.0
+    },
+    {
+      "create_date": "2026-06-21",
+      "count": 15,
+      "avg_sentiment": 0.6400000000000001,
+      "total_likes": 542.0
+    },
+    {
+      "create_date": "2026-06-22",
+      "count": 9,
+      "avg_sentiment": 0.2,
+      "total_likes": 13.0
+    },
+    {
+      "create_date": "2026-06-23",
+      "count": 13,
+      "avg_sentiment": 0.07692307692307693,
+      "total_likes": 2233.0
+    },
+    {
+      "create_date": "2026-06-24",
+      "count": 11,
+      "avg_sentiment": 1.5363636363636362,
+      "total_likes": 63.0
+    },
+    {
+      "create_date": "2026-06-25",
+      "count": 6,
+      "avg_sentiment": 1.3166666666666667,
+      "total_likes": 6.0
+    },
+    {
+      "create_date": "2026-06-26",
+      "count": 7,
+      "avg_sentiment": 0.6571428571428571,
+      "total_likes": 11.0
+    },
+    {
+      "create_date": "2026-06-27",
+      "count": 6,
+      "avg_sentiment": 1.2333333333333334,
+      "total_likes": 61.0
+    },
+    {
+      "create_date": "2026-06-28",
+      "count": 10,
+      "avg_sentiment": 0.12000000000000002,
+      "total_likes": 45.0
+    },
+    {
+      "create_date": "2026-06-29",
+      "count": 8,
+      "avg_sentiment": -0.7125,
+      "total_likes": 25.0
+    },
+    {
+      "create_date": "2026-06-30",
+      "count": 11,
+      "avg_sentiment": 0.0,
+      "total_likes": 30.0
+    },
+    {
+      "create_date": "2026-07-01",
+      "count": 14,
+      "avg_sentiment": 0.42142857142857143,
+      "total_likes": 146.0
+    },
+    {
+      "create_date": "2026-07-02",
+      "count": 8,
+      "avg_sentiment": 1.075,
+      "total_likes": 115.0
+    },
+    {
+      "create_date": "2026-07-03",
+      "count": 12,
+      "avg_sentiment": 1.2833333333333334,
+      "total_likes": 10216.0
+    },
+    {
+      "create_date": "2026-07-04",
+      "count": 14,
+      "avg_sentiment": 0.9500000000000001,
+      "total_likes": 2486.0
+    },
+    {
+      "create_date": "2026-07-05",
+      "count": 9,
+      "avg_sentiment": 0.9444444444444444,
+      "total_likes": 12.0
+    },
+    {
+      "create_date": "2026-07-06",
+      "count": 11,
+      "avg_sentiment": -0.7818181818181817,
+      "total_likes": 5016.0
+    },
+    {
+      "create_date": "2026-07-07",
+      "count": 11,
+      "avg_sentiment": 0.7454545454545454,
+      "total_likes": 92.0
+    },
+    {
+      "create_date": "2026-07-08",
+      "count": 10,
+      "avg_sentiment": 1.5,
+      "total_likes": 6214.0
+    },
+    {
+      "create_date": "2026-07-09",
+      "count": 9,
+      "avg_sentiment": 0.7000000000000001,
+      "total_likes": 102.0
+    },
+    {
+      "create_date": "2026-07-10",
+      "count": 13,
+      "avg_sentiment": 0.9461538461538462,
+      "total_likes": 604.0
+    },
+    {
+      "create_date": "2026-07-11",
+      "count": 10,
+      "avg_sentiment": 1.02,
+      "total_likes": 3672.0
+    },
+    {
+      "create_date": "2026-07-12",
+      "count": 10,
+      "avg_sentiment": 1.12,
+      "total_likes": 639.0
+    },
+    {
+      "create_date": "2026-07-13",
+      "count": 16,
+      "avg_sentiment": 1.84375,
+      "total_likes": 5541.0
+    },
+    {
+      "create_date": "2026-07-14",
+      "count": 10,
+      "avg_sentiment": 0.72,
+      "total_likes": 170.0
+    },
+    {
+      "create_date": "2026-07-15",
+      "count": 13,
+      "avg_sentiment": 0.5769230769230769,
+      "total_likes": 37.0
+    },
+    {
+      "create_date": "2026-07-16",
+      "count": 14,
+      "avg_sentiment": 1.1714285714285715,
+      "total_likes": 5665.0
+    },
+    {
+      "create_date": "2026-07-17",
+      "count": 8,
+      "avg_sentiment": 0.7875,
+      "total_likes": 16.0
+    },
+    {
+      "create_date": "2026-07-18",
+      "count": 12,
+      "avg_sentiment": 0.275,
+      "total_likes": 556.0
+    },
+    {
+      "create_date": "2026-07-19",
+      "count": 15,
+      "avg_sentiment": 0.8933333333333333,
+      "total_likes": 596.0
+    },
+    {
+      "create_date": "2026-07-20",
+      "count": 26,
+      "avg_sentiment": 0.8153846153846154,
+      "total_likes": 3000.0
+    },
+    {
+      "create_date": "2026-07-21",
+      "count": 8,
+      "avg_sentiment": 1.4875,
+      "total_likes": 15.0
+    },
+    {
+      "create_date": "2026-07-22",
+      "count": 16,
+      "avg_sentiment": 0.63125,
+      "total_likes": 6923.0
+    },
+    {
+      "create_date": "2026-07-23",
+      "count": 6,
+      "avg_sentiment": 0.65,
+      "total_likes": 6449.0
+    },
+    {
+      "create_date": "2026-07-24",
+      "count": 12,
+      "avg_sentiment": 0.7083333333333334,
+      "total_likes": 112.0
+    },
+    {
+      "create_date": "2026-07-25",
+      "count": 12,
+      "avg_sentiment": 0.525,
+      "total_likes": 2463.0
+    },
+    {
+      "create_date": "2026-07-26",
+      "count": 8,
+      "avg_sentiment": 0.8125,
+      "total_likes": 18.0
+    },
+    {
+      "create_date": "2026-07-27",
+      "count": 8,
+      "avg_sentiment": 2.1625,
+      "total_likes": 5016.0
+    },
+    {
+      "create_date": "2026-07-28",
+      "count": 16,
+      "avg_sentiment": 0.6062500000000001,
+      "total_likes": 42.0
+    },
+    {
+      "create_date": "2026-07-29",
+      "count": 8,
+      "avg_sentiment": 0.5375,
+      "total_likes": 13.0
+    },
+    {
+      "create_date": "2026-07-30",
+      "count": 3,
+      "avg_sentiment": 1.6000000000000003,
+      "total_likes": 3.0
+    },
+    {
+      "create_date": "2026-07-31",
+      "count": 11,
+      "avg_sentiment": 0.09090909090909091,
+      "total_likes": 2.0
+    },
+    {
+      "create_date": "2026-08-01",
+      "count": 1,
+      "avg_sentiment": 0.0,
+      "total_likes": 0.0
+    }
+  ],
+  "keyword_cooccurrence": [
+    {
+      "pair": [
+        "允许",
+        "自己"
+      ],
+      "count": 123
+    },
+    {
+      "pair": [
+        "别人",
+        "自己"
+      ],
+      "count": 80
+    },
+    {
+      "pair": [
+        "开始",
+        "自己"
+      ],
+      "count": 78
+    },
+    {
+      "pair": [
+        "学会",
+        "自己"
+      ],
+      "count": 77
+    },
+    {
+      "pair": [
+        "开始",
+        "拖延"
+      ],
+      "count": 72
+    },
+    {
+      "pair": [
+        "时候",
+        "自己"
+      ],
+      "count": 69
+    },
+    {
+      "pair": [
+        "然后",
+        "自己"
+      ],
+      "count": 61
+    },
+    {
+      "pair": [
+        "成长",
+        "自己"
+      ],
+      "count": 60
+    },
+    {
+      "pair": [
+        "现在",
+        "目标"
+      ],
+      "count": 53
+    },
+    {
+      "pair": [
+        "教练",
+        "问题"
+      ],
+      "count": 52
+    },
+    {
+      "pair": [
+        "接纳",
+        "自己"
+      ],
+      "count": 52
+    },
+    {
+      "pair": [
+        "学会",
+        "目标"
+      ],
+      "count": 52
+    },
+    {
+      "pair": [
+        "拖延",
+        "自己"
+      ],
+      "count": 51
+    },
+    {
+      "pair": [
+        "不会",
+        "计划"
+      ],
+      "count": 48
+    },
+    {
+      "pair": [
+        "然后",
+        "计划"
+      ],
+      "count": 48
+    },
+    {
+      "pair": [
+        "想要",
+        "有没有"
+      ],
+      "count": 46
+    },
+    {
+      "pair": [
+        "完美",
+        "重要"
+      ],
+      "count": 46
+    },
+    {
+      "pair": [
+        "完美",
+        "计划"
+      ],
+      "count": 43
+    },
+    {
+      "pair": [
+        "开始",
+        "改变"
+      ],
+      "count": 42
+    },
+    {
+      "pair": [
+        "努力",
+        "自己"
+      ],
+      "count": 41
+    },
+    {
+      "pair": [
+        "每天",
+        "焦虑"
+      ],
+      "count": 41
+    },
+    {
+      "pair": [
+        "允许",
+        "别人"
+      ],
+      "count": 40
+    },
+    {
+      "pair": [
+        "坚持",
+        "自律"
+      ],
+      "count": 40
+    },
+    {
+      "pair": [
+        "人生",
+        "改变"
+      ],
+      "count": 40
+    },
+    {
+      "pair": [
+        "教练",
+        "自己"
+      ],
+      "count": 40
+    },
+    {
+      "pair": [
+        "完美",
+        "自己"
+      ],
+      "count": 39
+    },
+    {
+      "pair": [
+        "不想",
+        "时候"
+      ],
+      "count": 38
+    },
+    {
+      "pair": [
+        "时候",
+        "计划"
+      ],
+      "count": 37
+    },
+    {
+      "pair": [
+        "现在",
+        "自己"
+      ],
+      "count": 35
+    },
+    {
+      "pair": [
+        "完美",
+        "开始"
+      ],
+      "count": 35
+    }
+  ]
+}

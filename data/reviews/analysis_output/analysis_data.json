@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "total_comments": 402,
+    "total_contents": 0,
+    "total_likes": 1365749,
+    "total_replies": 54655,
+    "dy_comments": 402,
+    "xhs_comments": 0
+  },
+  "keyword_categories": [
+    {
+      "category": "skill_gap",
+      "label": "📚 技能不足/学习提升",
+      "count": 53,
+      "pct": "13.2",
+      "likes": 39856
+    },
+    {
+      "category": "financial_pressure",
+      "label": "💰 经济压力/财务困境",
+      "count": 45,
+      "pct": "11.2",
+      "likes": 24646
+    },
+    {
+      "category": "job_search_frust",
+      "label": "📋 求职挫败/简历面试",
+      "count": 39,
+      "pct": "9.7",
+      "likes": 438225
+    },
+    {
+      "category": "age_discrimination",
+      "label": "🔢 年龄歧视/代际压力",
+      "count": 36,
+      "pct": "9.0",
+      "likes": 60319
+    },
+    {
+      "category": "job_type_reference",
+      "label": "🏢 职业类型/行业参考",
+      "count": 23,
+      "pct": "5.7",
+      "likes": 30052
+    },
+    {
+      "category": "emotional_distress",
+      "label": "😰 情绪焦虑/心理压力",
+      "count": 22,
+      "pct": "5.5",
+      "likes": 145244
+    },
+    {
+      "category": "social_stigma",
+      "label": "👥 社会压力/面子问题",
+      "count": 22,
+      "pct": "5.5",
+      "likes": 16309
+    },
+    {
+      "category": "coaching_needs",
+      "label": "🧭 教练/指导需求",
+      "count": 17,
+      "pct": "4.2",
+      "likes": 263395
+    },
+    {
+      "category": "self_improvement",
+      "label": "🌱 自我成长/行动力",
+      "count": 13,
+      "pct": "3.2",
+      "likes": 17827
+    }
+  ],
+  "sentiment": [
+    {
+      "sentiment": "positive",
+      "count": 39,
+      "pct": "9.7",
+      "likes": 209872
+    },
+    {
+      "sentiment": "mixed",
+      "count": 8,
+      "pct": "2.0",
+      "likes": 276
+    },
+    {
+      "sentiment": "neutral",
+      "count": 327,
+      "pct": "81.3",
+      "likes": 1010405
+    },
+    {
+      "sentiment": "negative",
+      "count": 28,
+      "pct": "7.0",
+      "likes": 145196
+    }
+  ],
+  "top_liked": [
+    {
+      "content": "第一个是真的，我第一次面试，HR问我有什么问她的，我就问您觉得今天的面试我有哪里不够好需要改进的，她真的讲了我面试和简历中的优缺点和她看中我的点，真心给建议",
+      "like_count": 250714,
+      "nickname": "广***龙",
+      "platform": "dy"
+    },
+    {
+      "content": "其实。。。一直没找到是因为我根本没想真的找[泪奔]",
+      "like_count": 140585,
+      "nickname": "风*",
+      "platform": "dy"
+    },
+    {
+      "content": "睡前不想看这么焦虑的事情",
+      "like_count": 103947,
+      "nickname": "叛***狗",
+      "platform": "dy"
+    },
+    {
+      "content": "我真的该睡了，既然能看到毕马威总监在抖音求职…",
+      "like_count": 67068,
+      "nickname": "烟*",
+      "platform": "dy"
+    },
+    {
+      "content": "在家待了三年，昨天把电视卖了[捂脸][捂脸][捂脸]",
+      "like_count": 64153,
+      "nickname": "梦麻",
+      "platform": "dy"
+    },
+    {
+      "content": "在家待了三年，昨天把电视卖了[捂脸][捂脸][捂脸]",
+      "like_count": 64153,
+      "nickname": "梦***麻",
+      "platform": "dy"
+    },
+    {
+      "content": "竟然还是毕马威的总监，四大也这样吗[流泪]",
+      "like_count": 52646,
+      "nickname": "想***式",
+      "platform": "dy"
+    },
+    {
+      "content": "毕马威的总监在抖音求职？！我上学的时候觉得这种精英都是打工皇帝，企业抢着要的！",
+      "like_count": 44403,
+      "nickname": "养***·",
+      "platform": "dy"
+    },
+    {
+      "content": "企业心气低，三千块就想当玉皇大帝",
+      "like_count": 40836,
+      "nickname": "☣***☣",
+      "platform": "dy"
+    },
+    {
+      "content": "我姥说今年大街上都没咋见到有人发广告扇子了[泪奔]",
+      "like_count": 40584,
+      "nickname": "🌈***🌈",
+      "platform": "dy"
+    },
+    {
+      "content": "找工作最怕的就是找到工作",
+      "like_count": 40171,
+      "nickname": "一***牛",
+      "platform": "dy"
+    },
+    {
+      "content": "当我有工作时  感觉全世界都在招聘  当我失业时 感觉全世界的岗位都饱和了[泪奔]",
+      "like_count": 37807,
+      "nickname": "挺***了",
+      "platform": "dy"
+    },
+    {
+      "content": "hr头像一定要默认，这种都是老hr，很专业",
+      "like_count": 32138,
+      "nickname": "婧***人",
+      "platform": "dy"
+    },
+    {
+      "content": "我学历比你还高，也是两端跨国企业工作经历，25岁失业到现在一年多了只面试了一次，投简历石沉大海，目前一直靠一对善良的老夫妇救济。[比心]",
+      "like_count": 28852,
+      "nickname": "豆*",
+      "platform": "dy"
+    },
+    {
+      "content": "哥，失业和失业不一样[捂脸]你这是摩擦性失业，不是结构性失业啊",
+      "like_count": 21353,
+      "nickname": "a***n",
+      "platform": "dy"
+    },
+    {
+      "content": "你俩好乐观，我失业9个月了，晚上二点三点都睡不着",
+      "like_count": 18042,
+      "nickname": "@@",
+      "platform": "dy"
+    },
+    {
+      "content": "你俩好乐观，我失业9个月了，晚上二点三点都睡不着",
+      "like_count": 18042,
+      "nickname": "@***@",
+      "platform": "dy"
+    },
+    {
+      "content": "女骑手越来越常见了[泣不成声]我就知道更难了。",
+      "like_count": 17606,
+      "nickname": "好***📝",
+      "platform": "dy"
+    },
+    {
+      "content": "我跟我妈说这已经不是一个很努力就有回报的时代了",
+      "like_count": 17417,
+      "nickname": "O***🌙",
+      "platform": "dy"
+    },
+    {
+      "content": "分享一下我个人觉得的毛细血管吧，我真不是受虐倾向[捂脸]如果点外卖送餐的人，速度慢，态度一般，年龄大，这是经济好起来了，结果现在全是速度快，态度好，全是 00 后的小哥[捂脸]好什么好啊[捂脸]",
+      "like_count": 17285,
+      "nickname": "千***舞",
+      "platform": "dy"
+    }
+  ],
+  "coaching_potential": [
+    {
+      "content": "第一个是真的，我第一次面试，HR问我有什么问她的，我就问您觉得今天的面试我有哪里不够好需要改进的，她真的讲了我面试和简历中的优缺点和她看中我的点，真心给建议",
+      "like_count": 250714,
+      "platform": "dy"
+    },
+    {
+      "content": "我跟我妈说这已经不是一个很努力就有回报的时代了",
+      "like_count": 17417,
+      "platform": "dy"
+    },
+    {
+      "content": "感觉简历很空怎么办[流泪]",
+      "like_count": 12043,
+      "platform": "dy"
+    },
+    {
+      "content": "博主分析的很好，我就是觉得以前的工作没有成长，十年如一日，所以我从国企辞职了，转行到新的行业，每天都在学新东西，很开心，因为我知道渐渐走上了我喜欢的方向[比心]",
+      "like_count": 261,
+      "platform": "dy"
+    },
+    {
+      "content": "唉，我也快失业了，87老登，不知道怎么办[流泪]",
+      "like_count": 198,
+      "platform": "dy"
+    },
+    {
+      "content": "知识还是能改变命运的，不要想信读书无用论",
+      "like_count": 61,
+      "platform": "dy"
+    },
+    {
+      "content": "干一行恨一行，至今没有遇到觉得还可以继续坚持的行业[抱紧自己]",
+      "like_count": 54,
+      "platform": "dy"
+    },
+    {
+      "content": "第一个是真的，昨晚我老公在线面试了三个实习生，每面完一个他和合伙人都讨论了这三人面试中存在的问题给出了具体建议，比如某个面试者的目前深入方向不太好找工作，还有某个面试者想要求职类似工作需要再学一下什么技术。如果实习生结束会议后再返回会议，就能听到。这些内容对大学中的求职者很重要，可惜没能当面反馈",
+      "like_count": 42,
+      "platform": "dy"
+    },
+    {
+      "content": "boss不回复怎么办……二战失败像案底一样[躺平]",
+      "like_count": 38,
+      "platform": "dy"
+    },
+    {
+      "content": "39岁，（以前是装修电工）今年面临转行，不知道往哪里转，刚把孩子的学费交了（12350元），犹豫了一个星期，最近天天都在街上闲逛，怎么办，有哪位大师指点一下",
+      "like_count": 30,
+      "platform": "dy"
+    },
+    {
+      "content": "我十年前因为爱好学了游泳，现在失业了在做个人女游泳教练教女生游泳",
+      "like_count": 26,
+      "platform": "dy"
+    },
+    {
+      "content": "那要是自己本根不知道自己能做什么岗位怎么办[再见]这不开始就结束了[再见]",
+      "like_count": 23,
+      "platform": "dy"
+    },
+    {
+      "content": "读书是穷人的唯一出路[比心]",
+      "like_count": 11,
+      "platform": "dy"
+    },
+    {
+      "content": "其实是这样的，我去年就是被辞退了，现在换了个地方，虽然确实累，但是成长了很多，甚至不到半年比我去年两年多在那个单位成长的更多，收入也更多。原单位也是动荡不安，又辞退别人，尤其你是一个踏实干活的人的情况下，辞退你说明他本身就出现问题了。加油！你会找到更好的工作的！",
+      "like_count": 8,
+      "platform": "dy"
+    },
+    {
+      "content": "我个人感觉去做销售会比较好一点，毕竟能够让自己的性格也好，能力都提升很多，毕竟在这个社会上还是要和人多接触的，有人的地方就有市场，可能前期会比较辛苦一点，但是让自己能够成长还是很多的呀，也很锻炼自己的心态",
+      "like_count": 8,
+      "platform": "dy"
+    }
+  ],
+  "top_bigrams": [
+    {
+      "phrase": "工作",
+      "count": 112
+    },
+    {
+      "phrase": "捂脸",
+      "count": 64
+    },
+    {
+      "phrase": "一个",
+      "count": 62
+    },
+    {
+      "phrase": "公司",
+      "count": 47
+    },
+    {
+      "phrase": "失业",
+      "count": 46
+    },
+    {
+      "phrase": "没有",
+      "count": 44
+    },
+    {
+      "phrase": "现在",
+      "count": 44
+    },
+    {
+      "phrase": "自己",
+      "count": 36
+    },
+    {
+      "phrase": "就是",
+      "count": 34
+    },
+    {
+      "phrase": "不要",
+      "count": 32
+    },
+    {
+      "phrase": "什么",
+      "count": 32
+    },
+    {
+      "phrase": "的工",
+      "count": 31
+    },
+    {
+      "phrase": "个月",
+      "count": 30
+    },
+    {
+      "phrase": "不到",
+      "count": 28
+    },
+    {
+      "phrase": "都是",
+      "count": 27
+    },
+    {
+      "phrase": "真的",
+      "count": 26
+    },
+    {
+      "phrase": "工资",
+      "count": 25
+    },
+    {
+      "phrase": "流泪",
+      "count": 24
+    },
+    {
+      "phrase": "可以",
+      "count": 24
+    },
+    {
+      "phrase": "觉得",
+      "count": 24
+    },
+    {
+      "phrase": "不是",
+      "count": 24
+    },
+    {
+      "phrase": "面试",
+      "count": 24
+    },
+    {
+      "phrase": "的人",
+      "count": 23
+    },
+    {
+      "phrase": "这个",
+      "count": 22
+    },
+    {
+      "phrase": "上班",
+      "count": 21
+    },
+    {
+      "phrase": "找到",
+      "count": 20
+    },
+    {
+      "phrase": "双休",
+      "count": 20
+    },
+    {
+      "phrase": "毕业",
+      "count": 20
+    },
+    {
+      "phrase": "豆包",
+      "count": 20
+    },
+    {
+      "phrase": "但是",
+      "count": 19
+    },
+    {
+      "phrase": "根本",
+      "count": 19
+    },
+    {
+      "phrase": "知道",
+      "count": 18
+    },
+    {
+      "phrase": "这种",
+      "count": 18
+    },
+    {
+      "phrase": "如果",
+      "count": 17
+    },
+    {
+      "phrase": "感觉",
+      "count": 17
+    },
+    {
+      "phrase": "了我",
+      "count": 16
+    },
+    {
+      "phrase": "因为",
+      "count": 16
+    },
+    {
+      "phrase": "岗位",
+      "count": 16
+    },
+    {
+      "phrase": "这样",
+      "count": 16
+    },
+    {
+      "phrase": "小时",
+      "count": 16
+    },
+    {
+      "phrase": "时候",
+      "count": 16
+    },
+    {
+      "phrase": "很多",
+      "count": 16
+    },
+    {
+      "phrase": "人的",
+      "count": 16
+    },
+    {
+      "phrase": "视频",
+      "count": 16
+    },
+    {
+      "phrase": "所以",
+      "count": 15
+    },
+    {
+      "phrase": "找工",
+      "count": 15
+    },
+    {
+      "phrase": "五险",
+      "count": 15
+    },
+    {
+      "phrase": "不会",
+      "count": 15
+    },
+    {
+      "phrase": "个人",
+      "count": 14
+    },
+    {
+      "phrase": "经验",
+      "count": 14
+    },
+    {
+      "phrase": "业了",
+      "count": 14
+    },
+    {
+      "phrase": "泪奔",
+      "count": 14
+    },
+    {
+      "phrase": "招聘",
+      "count": 14
+    },
+    {
+      "phrase": "险一",
+      "count": 14
+    },
+    {
+      "phrase": "一金",
+      "count": 14
+    },
+    {
+      "phrase": "我们",
+      "count": 14
+    },
+    {
+      "phrase": "稳定",
+      "count": 14
+    },
+    {
+      "phrase": "一下",
+      "count": 14
+    },
+    {
+      "phrase": "已经",
+      "count": 13
+    },
+    {
+      "phrase": "时间",
+      "count": 13
+    }
+  ],
+  "length_distribution": {
+    "1-10字": 41,
+    "11-30字": 182,
+    "31-60字": 82,
+    "61-100字": 61,
+    "100+字": 36
+  },
+  "platform_breakdown": {
+    "dy": 402,
+    "xhs": 0
+  },
+  "content_tags": [],
+  "source_keywords": []
+}
