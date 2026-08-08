@@ -1,6 +1,6 @@
 ---
 name: darwin-skill
-description: "Darwin Skill 2.0 (达尔文.skill 2.0): autonomous skill optimizer, v2.0 integrates Microsoft Research SkillLens (arXiv 2605.23899) 9-dim rubric + SkillOpt (arXiv 2605.23904) validation-gated design + human-in-the-loop checkpoints. Evaluates SKILL.md files using a 9-dimension rubric (structure + effectiveness + meta-skill blacklists), runs hill-climbing with git version control, spawns independent judge agents for blind evaluation, validates improvements through test prompts with auto-break on diminishing returns, and generates visual result cards. Use when user mentions \"优化skill\", \"skill评分\", \"自动优化\", \"auto optimize\", \"skill质量检查\", \"达尔文\", \"darwin\", \"帮我改改skill\", \"skill怎么样\", \"提升skill质量\", \"skill review\", \"skill打分\"."
+description: "Darwin Skill 2.0 (达尔文.skill 2.0): autonomous skill optimizer integrating Microsoft Research SkillLens (arXiv 2605.23899) 9-dim rubric + SkillOpt (arXiv 2605.23904) validation-gated design + human-in-the-loop checkpoints. Evaluates and iteratively improves SKILL.md files via baseline evaluation (structure + effectiveness + meta-skill blacklists), hill-climbing with git version control, independent judge agents for blind paired comparison, and visual result cards. 中文触发: 优化skill/skill评分/自动优化/skill质量检查/帮我改改skill/skill怎么样/提升skill质量/skill review/skill打分/达尔文. English trigger: auto optimize/optimize skill/skill review/skill score/darwin."
 ---
 
 # Darwin Skill 2.0
@@ -13,6 +13,17 @@ description: "Darwin Skill 2.0 (达尔文.skill 2.0): autonomous skill optimizer
 > GitHub: https://github.com/alchaincyf/darwin-skill
 
 ---
+
+## 路径解析（Path Resolution）
+
+> 本 skill 在运行时自动解析自身所在目录：`$SKILL_DIR`。
+> 所有相对路径引用（scripts、templates、results.tsv）均基于 `$SKILL_DIR` 解析，
+> 确保在 `.claude/skills/`、`.agents/skills/`、`.cursor/skills/`、`skills/` 等任意平台目录下均可正常工作。
+>
+> 使用示例：
+> - 脚本路径：`$SKILL_DIR/scripts/screenshot.mjs`
+> - 模板路径：`$SKILL_DIR/templates/result-card.html`
+> - 结果日志：`$SKILL_DIR/results.tsv`
 
 ## 设计哲学
 
@@ -98,6 +109,11 @@ skill 应当能在 Claude Code / Codex / Cursor / OpenClaw / Hermes / Gemini CLI
 grep -nE "(在 Claude Code|Claude Code skill|Claude Code 用户|Cursor only|Codex 中|^\[!\[Claude Code|~/\.claude/skills/[a-z]|/plugin install\b)" SKILL.md README.md 2>/dev/null
 ```
 
+```powershell
+# Windows (PowerShell) 替代
+Select-String -Path "SKILL.md","README.md" -Pattern "(Claude Code|Cursor only|Codex|\.claude/skills/[a-z]|plugin install)" 2>$null
+```
+
 输出非空 = 红灯命中 → 强制把 Phase 2 第一轮定为 P0「runtime drift 修复」（写入 results.tsv 的 note 列 `runtime_warn=N`）。
 
 ### 例外（允许的「Claude Code 痕迹」）
@@ -114,7 +130,7 @@ frontmatter 触发词、花叔生态内部 skill 名引用、明确标注 runtim
 
 ```
 1. 确认优化范围：
-   - 全部skills → 扫描 .claude/skills/*/SKILL.md
+   - 全部skills → 扫描 .claude/skills/*/SKILL.md、.agents/skills/*/SKILL.md
    - 指定skills → 用户指定列表
 2. 创建 git 分支：auto-optimize/YYYYMMDD-HHMM
 3. 初始化 results.tsv（如不存在）
@@ -299,7 +315,7 @@ paired 行：`new_score` 栏记 vote 比数（如 `3-0 better`），`note` 记�
 ```tsv
 2026-06-10T06:30	paired	some-skill	（绝对 87.3→78.8 = judge 噪音）	3-0 better	paired 推翻单评假退步	paired
 ```
-文件位置：`.claude/skills/darwin-skill/results.tsv`
+文件位置：`$SKILL_DIR/results.tsv`
 
 ---
 
@@ -403,32 +419,12 @@ paired 行：`new_score` 栏记 vote 比数（如 `3-0 better`），`note` 记�
 
 ## 使用方式
 
-### 全量优化（推荐首次使用）
-```
-用户："优化所有skills"
-→ Phase 0-3 完整流程
-→ 默认：先基线评估，按分数升序优先优化最低 5-10 个
-```
-
-### 单个优化
-```
-用户："优化 huashu-slides 这个skill"
-→ 只对指定skill执行 Phase 0.5-2
-```
-
-### 仅评估不改
-```
-用户："评估所有skills的质量"
-→ 只执行 Phase 0.5-1（设计测试prompt + 基线评估），不进入优化循环
-```
-
-### 查看历史
-```
-用户："看看skill优化历史"
-→ 读取并展示 results.tsv
-```
-
----
+| 场景 | 用户说 | 触发流程 |
+|------|--------|---------|
+| 全量优化（推荐） | "优化所有skills" | Phase 0→0.5→1→2→3（基线→按分升序→hill-climbing→汇总） |
+| 单个优化 | "优化 {skill名}" | Phase 0.5→1→2（仅指定skill） |
+| 仅评估不改 | "评估所有skills的质量" | Phase 0.5→1（设计prompt+基线，不进入优化循环） |
+| 查看历史 | "看看skill优化历史" | 读取并展示 `$SKILL_DIR/results.tsv` |
 
 ## 设计灵感
 
@@ -480,7 +476,7 @@ paired 行：`new_score` 栏记 vote 比数（如 `3-0 better`），`note` 记�
    - data-field="date" → 当前日期
 3. 随机选择风格：hash 设为 swiss/terminal/newspaper 之一
 4. 用 scripts/screenshot.mjs 截图（2x 高清，只截 .card 元素，自动 open 图片）：
-   node .claude/skills/darwin-skill/scripts/screenshot.mjs \
+   node $SKILL_DIR/scripts/screenshot.mjs \
      /abs/path/to/card.html /abs/path/to/output.png
    # 回退方案（脚本失败时）：
    npx playwright screenshot "file:///path/to/card.html#[theme]" \
@@ -493,8 +489,8 @@ paired 行：`new_score` 栏记 vote 比数（如 `3-0 better`），`note` 记�
 |---|---|
 | `templates/result-card.html` | 3风格主模板（swiss/terminal/newspaper，hash切换） |
 | `templates/result-card-dark.html` / `-white.html` | 单一风格替代模板（需要锁定风格时用） |
-| `scripts/screenshot.mjs` | 2x 高清截图，只截 .card，自动 open |
-| `results.tsv` | 历次优化日志（9列含 eval_mode） |
+| `$SKILL_DIR/scripts/screenshot.mjs` | 2x 高清截图，只截 .card，自动 open |
+| `$SKILL_DIR/results.tsv` | 历次优化日志（9列含 eval_mode） |
 | `{skill目录}/test-prompts.json` | 每个 skill 的测试 prompt 集（用于维度8实测） |
 
 ### 何时生成

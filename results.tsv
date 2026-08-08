@@ -1,0 +1,5 @@
+﻿timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-08-08T10:51	baseline	action-coach	-	73.1	baseline	-	基线评估: dim1=9 dim2=8 dim3=6 dim4=5 dim5=9 dim6=7 dim7=8 dim8=6.7 dim9=5	dry_run
+2026-08-08T11:01:00	paired	action-coach	(baseline 73.1)	3-0 better	keep	dim3	paired: 3 judges all vote better (2 clear, 1 slight). Failure handling section with if-then-else tables + CHECKPOINT marker added. dim3=6→~8, dim2/4/5/7 slight lift.	paired
+2026-08-08T11:08:00	paired	action-coach	(prev kept)	3-0 better	keep	dim9	paired: 3 judges all vote better (2 clear, 1 slight). Anti-pattern section with 10-item blacklist table + CHECKPOINT added. dim9=5→~7.5, dim4 slight lift from added CHECKPOINT.	paired
+2026-08-08T11:12:00	paired	action-coach	(prev kept)	3-0 better	keep	dim4	paired: 3 judges all vote better (2 clear, 1 slight). 4 CHECKPOINT markers added at Step 3, Step 5, 早安卡 计划输出, Done 完成. dim4=5→~7, cluster benefit dim2/3.	paired
